@@ -1,0 +1,1001 @@
+codigo_uni,nombre,genero,edad,ciclo_academico,condicion_socioeconomica,nombre_carrera,facultad,area_academica,fecha_registro,puntaje_estres,inasistencias_lms,indice_sentimiento,asistencia_cita_flag,nota_promedio
+20240001,Juan Frias,M,22,IV,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-17,97,30,-0.97,0,8.9
+20240002,Silvia Peña,F,18,IX,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-15,27,0,0.76,0,15.0
+20240003,Carmen Herrera,F,23,II,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-07,32,4,0.26,0,14.3
+20240004,Valeria Soto,F,19,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-06,63,6,-0.3,0,13.7
+20240005,Angel Antunez,M,24,V,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-11,23,5,0.27,0,19.6
+20240006,Gianpierre Mora,M,21,III,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-18,50,5,0.56,0,18.1
+20240007,Diego Ruiz,M,23,VII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-14,46,5,0.31,0,17.9
+20240008,Hector Vasquez,M,22,III,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-17,47,3,0.36,0,20.0
+20240009,Laura Torres,F,19,III,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-20,48,0,0.38,0,17.6
+20240010,Gabriela Perez,F,19,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-08,66,9,-0.69,1,13.5
+20240011,Alejandro Sanchez,M,26,II,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-23,48,1,0.15,0,18.6
+20240012,Simon Perez,M,23,VIII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-29,29,1,0.06,0,19.3
+20240013,Isabella Lopez,F,26,III,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-30,26,4,0.87,0,16.5
+20240014,Nicolas Caro,M,21,V,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-29,38,0,0.25,1,14.4
+20240015,Sebastian Flores,M,18,II,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-15,86,23,-0.98,1,8.1
+20240016,Rosa Tello,F,25,IV,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-13,96,26,-0.89,0,8.8
+20240017,Emilio Antunez,M,18,VII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-21,25,1,0.19,0,16.7
+20240018,Silvia Lopez,F,25,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-11,10,0,0.93,0,19.1
+20240019,Carmen Luna,F,18,III,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-25,75,8,-0.44,1,14.4
+20240020,Sofia Ramirez,F,18,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-17,62,10,-0.41,0,14.2
+20240021,Andrea Castro,F,20,II,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-13,35,0,0.94,0,17.4
+20240022,Elena Paz,F,26,VI,Media,Derecho,Derecho y Humanidades,Letras,2026-06-12,25,2,0.4,0,18.0
+20240023,Laura Lopez,F,18,VIII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-05,42,2,0.13,1,16.1
+20240024,Sofia Vargas,F,25,IX,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-09,51,4,0.01,0,18.9
+20240025,Fernando Inofuente,M,22,II,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-18,67,11,-0.49,1,13.4
+20240026,Jorge Torres,M,19,VII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-01,65,11,-0.11,1,11.6
+20240027,Victor Arce,M,18,II,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-04,91,30,-0.96,1,7.6
+20240028,Valeria Ruiz,F,23,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-12,98,30,-0.73,0,8.8
+20240029,Diego Vargas,M,20,VII,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-17,60,3,0.8,0,19.2
+20240030,Paula Caro,F,19,VII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-15,75,8,-0.51,0,13.8
+20240031,Catalina Fernandez,F,24,VI,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-19,81,10,-0.45,1,14.4
+20240032,Marck Chavez,M,20,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-07,32,5,0.79,0,16.6
+20240033,Juliana Cano,F,21,V,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-01,44,5,0.72,0,18.5
+20240034,Elena Mesa,F,23,X,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-16,42,2,0.67,0,16.0
+20240035,Pedro Paz,M,24,III,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-26,10,2,0.29,0,16.6
+20240036,Hector Cruz,M,25,IV,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-20,60,5,0.17,0,14.5
+20240037,Raul Castro,M,21,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-10,89,28,-0.82,1,10.5
+20240038,Antonella Cano,F,21,VII,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-16,97,13,-0.73,0,10.9
+20240039,Diego Sanchez,M,26,VIII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-28,39,1,0.8,0,18.0
+20240040,Alejandro Cruz,M,26,VII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-27,76,9,-0.54,1,11.9
+20240041,Simon Rivas,M,21,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-15,69,8,-0.5,0,12.9
+20240042,Daniela Caro,F,20,IV,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-27,75,9,-0.65,1,13.9
+20240043,Sebastian Caro,M,18,X,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-01,29,3,0.85,0,19.7
+20240044,Felipe Alba,M,21,VIII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-28,34,2,0.67,0,18.8
+20240045,Ricardo Inofuente,M,26,I,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-06,18,3,0.18,0,15.6
+20240046,Monica Herrera,F,24,V,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-23,86,30,-0.98,0,11.3
+20240047,Alejandro Pino,M,18,I,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-23,88,20,-0.96,0,10.0
+20240048,Natalia Medina,F,23,III,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-19,29,0,0.58,0,19.6
+20240049,Javier Luna,M,21,II,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-07,29,5,0.6,0,14.7
+20240050,Hugo Mora,M,24,VI,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-01,41,0,0.43,0,16.2
+20240051,Rosa Vega,F,20,IX,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-09,44,3,0.46,0,19.0
+20240052,Silvia Castro,F,22,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-06,34,2,0.03,0,19.1
+20240053,Paula Chavez,F,23,V,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-05,89,15,-0.93,0,8.8
+20240054,Emilio Muro,M,25,VIII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-19,83,7,-0.51,1,13.0
+20240055,Hugo Vega,M,26,VI,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-18,68,6,-0.26,0,12.1
+20240056,Samantha Nunez,F,22,X,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-07,28,1,0.36,0,15.8
+20240057,Ana Torres,F,26,V,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-10,41,0,0.87,0,17.4
+20240058,Lucia Torres,F,22,VIII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-26,46,5,0.69,0,14.9
+20240059,Carlos Diaz,M,19,IX,Media,Derecho,Derecho y Humanidades,Letras,2026-06-19,38,3,0.3,0,17.5
+20240060,Luis Rey,M,19,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-17,20,1,0.17,1,14.5
+20240061,Martina Nunez,F,22,I,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-15,75,6,-0.28,0,14.2
+20240062,Gabriela Flores,F,20,V,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-04,70,10,-0.25,1,13.0
+20240063,Valeria Caro,F,22,VII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-29,86,26,-0.78,0,9.7
+20240064,Catalina Cano,F,18,V,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-18,40,4,0.65,0,19.5
+20240065,Emilio Rivas,M,19,VIII,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-22,64,12,-0.6,1,12.4
+20240066,Daniela Herrera,F,26,I,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-21,64,12,-0.45,0,12.8
+20240067,Felipe Leon,M,24,I,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-09,50,3,0.76,0,15.2
+20240068,Hector Caro,M,25,II,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-15,78,6,-0.36,0,11.3
+20240069,Astrid Pino,F,20,VIII,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-02,36,3,0.98,0,15.5
+20240070,Valeria Alba,F,26,III,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-19,36,2,0.93,0,17.0
+20240071,Sofia Gil,F,25,III,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-23,85,10,-0.47,0,14.3
+20240072,Diego Cano,M,24,IV,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-21,55,3,0.39,0,18.0
+20240073,Mateo Ruiz,M,20,IX,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-25,99,27,-0.97,0,11.1
+20240074,Victor Pino,M,20,II,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-22,35,5,0.08,0,16.0
+20240075,Raul Celi,M,25,IX,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-16,28,1,0.75,1,16.6
+20240076,Angel Antunez,M,25,III,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-27,91,14,-0.91,0,8.7
+20240077,Camila Cano,F,20,III,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-09,49,5,0.24,0,19.5
+20240078,Natalia Leon,F,22,I,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-13,14,3,0.95,0,19.9
+20240079,Gonzalo Chavez,M,25,V,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-24,25,3,0.57,0,17.4
+20240080,Claudia Mesa,F,24,V,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-28,41,2,0.78,0,15.4
+20240081,Carmen Rey,F,22,III,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-27,12,2,0.79,0,14.2
+20240082,Valeria Silva,F,23,VII,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-09,33,4,0.5,0,15.6
+20240083,Mateo Silva,M,23,II,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-10,24,5,0.72,0,19.9
+20240084,Hugo Castro,M,24,I,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-30,57,5,0.26,0,16.3
+20240085,Catalina Flores,F,25,I,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-28,51,0,0.64,0,16.8
+20240086,Marck Inofuente,M,18,I,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-08,100,30,-0.96,1,9.0
+20240087,Nicolas Vasquez,M,24,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-30,12,5,0.37,0,16.7
+20240088,Marck Solis,M,23,IX,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-04,22,0,0.95,1,18.9
+20240089,Antonella Alba,F,18,I,Media,Derecho,Derecho y Humanidades,Letras,2026-05-09,23,0,0.83,0,17.3
+20240090,Diego Aguilar,M,20,X,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-24,18,4,0.25,0,15.0
+20240091,Maria Rios,F,21,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-12,65,11,-0.44,0,11.4
+20240092,Laura Ortiz,F,26,X,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-02,80,6,-0.26,1,14.2
+20240093,Maria Torres,F,25,VII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-01,38,0,0.9,0,15.9
+20240094,Martina Celi,F,26,VI,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-30,37,0,0.79,0,14.7
+20240095,Felipe Tello,M,21,VII,Media,Derecho,Derecho y Humanidades,Letras,2026-05-27,75,9,-0.44,1,11.3
+20240096,Natalia Ortiz,F,20,VIII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-23,92,16,-0.78,0,8.7
+20240097,Sebastian Arce,M,26,VI,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-27,52,3,0.87,0,18.3
+20240098,Hugo Antunez,M,26,IV,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-15,32,4,0.37,0,18.6
+20240099,Angel Arce,M,26,I,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-02,83,12,-0.51,0,12.2
+20240100,Rosa Cano,F,24,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-06,23,3,0.42,0,16.0
+20240101,Alejandro Cano,M,19,I,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-18,53,0,0.27,0,18.0
+20240102,Natalia Ramirez,F,26,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-08,82,10,-0.4,0,13.3
+20240103,Martina Torres,F,18,IV,Media,Derecho,Derecho y Humanidades,Letras,2026-06-19,90,22,-0.9,1,7.0
+20240104,Daniela Mora,F,21,IX,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-05,57,0,0.44,1,16.8
+20240105,Camila Cano,F,24,VII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-26,91,18,-0.76,1,9.8
+20240106,Patricia Antunez,F,21,VII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-03,99,22,-0.78,0,8.0
+20240107,Antonella Ismino,F,26,IX,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-23,51,1,0.24,0,14.9
+20240108,Alejandro Herrera,M,19,III,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-30,58,4,0.45,0,19.5
+20240109,Tomas Morales,M,23,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-31,29,2,0.59,1,16.1
+20240110,Ana Torres,F,23,V,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-09,34,3,0.58,0,19.7
+20240111,Valeria Cano,F,21,VI,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-02,62,9,-0.63,1,14.1
+20240112,Carlos Peña,M,20,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-29,49,1,0.36,0,19.5
+20240113,Rodrigo Alba,M,18,VI,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-07,34,2,0.25,0,19.1
+20240114,Gersson Aguilar,M,19,X,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-28,81,11,-0.3,0,11.5
+20240115,Daniela Pino,F,23,III,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-11,42,2,0.02,0,15.9
+20240116,Laura Rivas,F,21,IV,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-05,64,10,-0.24,0,13.9
+20240117,Fernando Medina,M,20,X,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-11,83,12,-0.32,1,14.2
+20240118,Brenda Solis,F,21,VIII,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-18,38,1,0.53,0,15.9
+20240119,Claudia Fernandez,F,23,X,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-19,73,10,-0.38,0,14.4
+20240120,Gersson Chavez,M,18,VIII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-15,17,2,0.08,0,15.0
+20240121,Miguel Vega,M,19,IV,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-29,86,25,-0.85,0,8.1
+20240122,Maria Morales,F,19,VI,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-03,76,11,-0.2,1,13.7
+20240123,Maria Castro,F,18,V,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-05,48,4,0.42,0,18.7
+20240124,Silvia Paz,F,25,II,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-08,50,4,0.58,0,18.3
+20240125,Brenda Diaz,F,24,III,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-03,14,4,0.54,0,18.7
+20240126,Patricia Nunez,F,18,VII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-17,98,15,-0.9,0,10.3
+20240127,Nicolas Herrera,M,23,III,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-04,81,7,-0.2,1,13.4
+20240128,Jose Inofuente,M,19,VIII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-13,89,14,-0.91,1,8.4
+20240129,Felipe Nunez,M,22,I,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-19,59,0,0.87,0,16.0
+20240130,Juliana Luna,F,25,VII,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-01,33,4,0.27,0,14.5
+20240131,Claudia Sanchez,F,26,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-06,70,8,-0.43,0,13.5
+20240132,Hugo Cruz,M,18,VI,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-18,60,0,0.08,0,17.8
+20240133,Rodrigo Vargas,M,18,III,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-03,89,24,-0.89,0,11.3
+20240134,Rodrigo Cruz,M,23,VI,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-06,91,25,-0.91,0,8.3
+20240135,Lucia Rivas,F,26,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-17,55,3,0.21,0,17.7
+20240136,Pedro Ismino,M,20,II,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-27,15,5,0.97,0,19.9
+20240137,Felipe Mora,M,22,V,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-20,24,0,0.99,0,18.8
+20240138,Brenda Arce,F,23,VIII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-09,14,2,0.4,0,18.3
+20240139,Camila Cano,F,19,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-29,43,2,0.13,0,19.0
+20240140,Alejandro Inofuente,M,24,IX,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-03,66,7,-0.5,1,13.5
+20240141,Simon Silva,M,19,V,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-09,49,4,0.09,0,17.8
+20240142,Gianpierre Mesa,M,23,X,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-06,96,21,-0.8,1,10.5
+20240143,Juan Rivas,M,26,V,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-31,82,9,-0.51,0,11.3
+20240144,Camila Nunez,F,25,IV,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-21,30,5,0.99,0,16.1
+20240145,Simon Arce,M,19,VI,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-08,68,7,-0.63,1,12.0
+20240146,Victor Diaz,M,20,VI,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-13,41,4,0.47,0,19.3
+20240147,Daniela Peña,F,25,IV,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-04,93,28,-0.91,0,7.0
+20240148,Juliana Chavez,F,23,VII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-26,94,19,-0.89,1,8.3
+20240149,Alejandro Arce,M,22,X,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-09,35,2,0.79,0,16.0
+20240150,Pedro Alba,M,26,VII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-03,97,23,-0.76,0,9.3
+20240151,Simon Inofuente,M,23,X,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-26,57,2,0.59,0,17.0
+20240152,Ximena Mendoza,F,25,I,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-13,92,22,-0.76,0,10.3
+20240153,Jorge Pino,M,21,I,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-11,56,4,0.77,0,16.3
+20240154,Ximena Caro,F,19,IV,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-21,36,5,0.2,0,17.0
+20240155,Patricia Frias,F,18,III,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-05,82,9,-0.38,0,12.1
+20240156,Gabriela Aguilar,F,26,VI,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-09,25,2,0.56,0,15.3
+20240157,Sofia Muro,F,21,VIII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-23,60,5,0.27,0,14.7
+20240158,Daniela Rios,F,20,V,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-15,100,27,-0.8,0,10.4
+20240159,Gabriela Rojas,F,26,V,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-09,25,1,0.05,0,19.4
+20240160,Astrid Paz,F,23,VIII,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-01,20,3,0.65,0,19.3
+20240161,Alejandro Silva,M,23,V,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-28,51,4,0.23,0,18.4
+20240162,Valeria Sanchez,F,24,III,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-20,57,2,0.88,0,14.1
+20240163,Monica Silva,F,25,IX,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-26,42,3,0.27,0,18.9
+20240164,Emilio Chavez,M,20,I,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-20,82,12,-0.58,1,13.1
+20240165,Simon Morales,M,19,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-12,40,2,0.94,0,14.0
+20240166,Natalia Aguilar,F,22,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-17,54,1,0.06,0,14.7
+20240167,Andrea Muro,F,22,II,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-24,24,1,0.48,0,16.7
+20240168,Diana Arce,F,25,IX,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-18,85,10,-0.17,1,11.3
+20240169,Hugo Lopez,M,19,I,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-06,20,2,0.85,0,16.7
+20240170,Mateo Castro,M,26,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-09,39,4,0.06,0,16.8
+20240171,Javier Chavez,M,18,IV,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-03,54,0,0.54,0,14.4
+20240172,Mateo Ruiz,M,22,VII,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-19,56,5,0.96,0,16.2
+20240173,Valeria Soto,F,24,II,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-11,17,1,0.99,0,16.4
+20240174,Miguel Perez,M,18,V,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-04,24,1,0.46,0,14.9
+20240175,Alejandro Ismino,M,18,VII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-16,64,10,-0.67,0,13.1
+20240176,Ana Luna,F,25,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-18,13,1,0.5,0,15.7
+20240177,Raul Cano,M,23,IV,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-12,36,2,0.28,0,17.3
+20240178,Gianpierre Celi,M,24,IX,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-23,52,3,0.79,0,15.9
+20240179,Daniela Sanchez,F,26,VIII,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-20,19,3,0.91,0,17.4
+20240180,Gersson Soto,M,21,V,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-11,93,24,-0.97,0,10.3
+20240181,Daniela Solis,F,18,II,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-31,71,8,-0.13,0,11.1
+20240182,Marck Frias,M,25,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-26,45,2,0.78,0,16.3
+20240183,Natalia Ortiz,F,26,VIII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-21,40,2,0.91,0,16.2
+20240184,Diego Frias,M,20,I,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-19,71,7,-0.47,1,13.9
+20240185,Rodrigo Aguilar,M,22,VIII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-30,72,7,-0.61,0,12.9
+20240186,Felipe Pino,M,18,IX,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-30,13,0,0.41,0,19.1
+20240187,Juan Ramirez,M,26,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-09,49,3,0.66,0,14.1
+20240188,Maria Vera,F,22,IX,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-02,53,3,0.81,0,19.5
+20240189,Rosa Diaz,F,21,X,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-22,60,3,0.08,0,19.8
+20240190,Diana Flores,F,22,II,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-06,34,4,0.48,0,17.8
+20240191,Patricia Vega,F,23,X,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-15,83,10,-0.41,0,11.2
+20240192,Jorge Mora,M,18,III,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-14,58,5,0.82,0,19.6
+20240193,Sebastian Soto,M,26,VI,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-20,56,0,0.5,1,19.8
+20240194,Claudia Lopez,F,23,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-19,81,8,-0.23,0,12.6
+20240195,Daniela Vega,F,20,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-06,28,1,0.71,0,14.5
+20240196,Emilio Vasquez,M,24,VI,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-06,90,27,-0.89,0,8.2
+20240197,Camila Cruz,F,26,IX,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-07,91,30,-0.97,1,9.7
+20240198,Juan Silva,M,24,VII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-06,53,3,0.17,0,15.6
+20240199,Lucia Vega,F,22,VII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-20,90,20,-0.78,0,9.2
+20240200,Rosa Mendoza,F,18,VII,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-21,38,2,0.43,0,18.9
+20240201,Andres Morales,M,21,VIII,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-26,28,5,0.69,0,16.9
+20240202,Daniela Rojas,F,24,VI,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-07,21,5,0.77,0,14.2
+20240203,Pedro Cruz,M,22,II,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-09,25,2,0.66,0,18.3
+20240204,Martina Nunez,F,24,IX,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-04,91,30,-0.82,0,11.1
+20240205,Rodrigo Mesa,M,23,III,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-06,53,5,0.4,0,18.5
+20240206,Maria Antunez,F,22,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-29,39,5,0.59,0,17.0
+20240207,Astrid Silva,F,24,II,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-23,75,12,-0.57,1,12.7
+20240208,Samantha Caro,F,25,VI,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-03,17,0,0.85,0,17.9
+20240209,Samantha Diaz,F,26,III,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-22,39,1,0.8,0,17.8
+20240210,Javier Gomez,M,21,VIII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-25,89,19,-0.92,0,10.2
+20240211,Jose Mora,M,20,VI,Media,Derecho,Derecho y Humanidades,Letras,2026-05-30,96,28,-0.84,1,9.9
+20240212,Sebastian Ismino,M,23,VI,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-22,29,4,0.59,0,18.0
+20240213,Astrid Sanchez,F,23,III,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-27,46,3,0.42,0,16.9
+20240214,Ricardo Sanchez,M,26,III,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-09,75,10,-0.66,0,12.3
+20240215,Carmen Soto,F,26,IX,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-27,36,5,0.84,1,16.9
+20240216,Laura Flores,F,22,I,Media,Derecho,Derecho y Humanidades,Letras,2026-06-04,85,9,-0.36,1,13.7
+20240217,Marck Cano,M,19,V,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-04,12,5,0.44,0,15.3
+20240218,Emilio Herrera,M,21,V,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-17,63,9,-0.18,0,11.4
+20240219,Samantha Gil,F,23,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-11,60,1,0.81,0,18.8
+20240220,Tomas Mora,M,20,VI,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-19,42,5,0.82,0,14.8
+20240221,Ana Rojas,F,20,III,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-15,68,12,-0.19,0,12.4
+20240222,Jorge Celi,M,24,VII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-10,59,0,0.4,0,18.5
+20240223,Hector Rivas,M,23,X,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-16,50,5,0.7,0,19.1
+20240224,Camila Ramirez,F,25,V,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-22,18,4,0.85,0,18.7
+20240225,Luis Antunez,M,25,I,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-29,37,1,1.0,0,19.5
+20240226,Patricia Rojas,F,19,VI,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-24,51,1,0.05,0,17.8
+20240227,Victor Pino,M,19,II,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-31,95,20,-0.84,0,9.0
+20240228,Miguel Ismino,M,24,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-15,56,0,0.1,0,16.2
+20240229,Claudia Herrera,F,20,III,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-09,38,2,0.72,0,17.8
+20240230,Catalina Cruz,F,21,II,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-18,97,25,-0.89,0,8.9
+20240231,Antonella Castro,F,21,IX,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-19,11,5,0.88,0,15.2
+20240232,Daniela Silva,F,18,IV,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-08,81,10,-0.65,0,14.1
+20240233,Ricardo Morales,M,20,VII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-24,21,3,0.95,1,18.6
+20240234,Natalia Ramirez,F,18,I,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-10,59,3,0.42,0,16.4
+20240235,Gersson Rojas,M,19,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-21,71,9,-0.34,0,13.7
+20240236,Camila Tello,F,21,I,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-29,39,4,0.61,0,15.9
+20240237,Marck Perez,M,20,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-30,77,12,-0.2,1,11.9
+20240238,Laura Rojas,F,19,I,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-18,26,5,0.98,0,17.8
+20240239,Luis Rivas,M,20,VI,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-19,95,16,-0.93,0,9.3
+20240240,Juan Diaz,M,18,VIII,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-28,62,10,-0.22,1,13.5
+20240241,Silvia Paz,F,23,V,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-08,13,1,0.22,1,17.1
+20240242,Juliana Leon,F,22,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-05,33,1,0.29,0,18.7
+20240243,Brenda Gil,F,25,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-10,92,13,-0.93,0,8.6
+20240244,Juan Herrera,M,24,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-03,36,3,0.96,0,19.8
+20240245,Ana Flores,F,26,VII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-30,15,4,0.1,0,14.8
+20240246,Ximena Torres,F,24,III,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-17,35,5,0.83,0,16.0
+20240247,Carmen Inofuente,F,19,III,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-29,36,0,0.54,0,19.8
+20240248,Natalia Ismino,F,19,III,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-22,48,0,0.22,0,19.1
+20240249,Hugo Luna,M,26,I,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-17,21,0,0.95,0,19.1
+20240250,Marck Leon,M,19,III,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-04,24,1,0.2,0,16.4
+20240251,Carlos Gil,M,22,II,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-13,38,1,0.09,0,19.1
+20240252,Valeria Torres,F,20,X,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-01,96,26,-0.95,0,8.0
+20240253,Valeria Vasquez,F,18,X,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-11,74,10,-0.41,1,11.3
+20240254,Carmen Pino,F,26,IV,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-25,32,3,0.54,0,16.9
+20240255,Javier Rojas,M,20,I,Media,Derecho,Derecho y Humanidades,Letras,2026-05-02,59,2,0.06,0,19.9
+20240256,Diego Vargas,M,19,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-18,60,5,0.06,0,20.0
+20240257,Jose Soto,M,23,III,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-07,84,11,-0.48,1,13.1
+20240258,Sebastian Vasquez,M,21,VIII,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-12,15,0,0.23,0,15.3
+20240259,Valeria Rey,F,21,III,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-28,30,0,0.02,0,17.5
+20240260,Angel Vera,M,23,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-07,90,23,-0.96,1,7.7
+20240261,Mateo Pino,M,23,III,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-15,21,3,0.31,0,18.1
+20240262,Gonzalo Cano,M,24,X,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-08,80,7,-0.31,1,11.4
+20240263,Samantha Lopez,F,21,VI,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-10,15,5,0.67,0,18.4
+20240264,Carmen Diaz,F,19,VI,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-16,92,27,-0.78,1,11.4
+20240265,Daniela Rios,F,26,VII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-20,51,5,0.23,0,16.7
+20240266,Maria Morales,F,22,II,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-11,20,5,0.08,0,19.7
+20240267,Martina Nunez,F,18,VII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-08,20,0,0.1,0,15.2
+20240268,Nicolas Tello,M,26,V,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-20,62,9,-0.35,0,13.9
+20240269,Maria Vega,F,19,V,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-13,89,18,-0.81,1,11.4
+20240270,Andres Luna,M,25,VIII,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-06,34,1,0.37,0,16.3
+20240271,Valeria Leon,F,22,IV,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-10,52,0,0.09,0,16.1
+20240272,Sebastian Flores,M,26,I,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-04,40,4,0.88,1,16.9
+20240273,Gonzalo Ruiz,M,26,X,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-08,38,1,0.95,0,15.0
+20240274,Ana Vega,F,19,VII,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-23,30,5,0.91,0,14.4
+20240275,Monica Rojas,F,26,VIII,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-08,19,4,0.59,0,18.6
+20240276,Sebastian Medina,M,19,V,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-26,34,5,0.49,1,17.7
+20240277,Rosa Rey,F,24,I,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-14,84,9,-0.15,0,14.1
+20240278,Paula Mendoza,F,22,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-25,70,11,-0.43,1,13.9
+20240279,Tomas Pino,M,19,IV,Media,Derecho,Derecho y Humanidades,Letras,2026-06-28,57,3,0.76,0,19.2
+20240280,Gianpierre Lopez,M,22,IX,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-19,46,0,0.17,0,19.3
+20240281,Ana Leon,F,18,VI,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-18,39,4,0.4,0,19.5
+20240282,Isabella Alba,F,25,III,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-23,69,11,-0.2,0,11.3
+20240283,Lucia Cano,F,21,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-13,81,9,-0.39,0,14.0
+20240284,Rosa Pino,F,20,X,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-17,29,5,0.97,0,17.9
+20240285,Brenda Leon,F,22,IV,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-13,49,3,0.58,0,14.0
+20240286,Miguel Ortiz,M,26,X,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-20,40,0,0.34,0,15.7
+20240287,Antonella Muro,F,22,IV,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-27,99,25,-0.8,0,10.1
+20240288,Andres Chavez,M,24,VII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-07,46,1,0.34,0,18.3
+20240289,Mateo Mesa,M,23,IX,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-23,45,1,0.29,0,16.8
+20240290,Felipe Herrera,M,20,VI,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-15,57,2,0.42,0,19.3
+20240291,Hector Ismino,M,25,I,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-31,42,0,0.87,0,16.3
+20240292,Patricia Vasquez,F,20,IV,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-06,39,1,0.32,0,18.3
+20240293,Antonella Sanchez,F,23,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-18,85,7,-0.35,0,11.6
+20240294,Camila Celi,F,24,VII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-25,94,19,-0.78,1,11.3
+20240295,Simon Fernandez,M,18,I,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-15,32,2,0.13,0,16.3
+20240296,Claudia Ruiz,F,22,V,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-28,18,2,1.0,0,16.9
+20240297,Valeria Luna,F,18,IV,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-14,47,4,0.17,0,16.2
+20240298,Juliana Celi,F,22,IX,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-08,52,0,0.65,0,14.1
+20240299,Daniela Ismino,F,26,V,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-14,50,0,0.3,0,18.0
+20240300,Martina Caro,F,20,VII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-19,87,28,-0.94,1,7.9
+20240301,Pedro Rios,M,24,V,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-05,23,5,0.93,1,16.0
+20240302,Ricardo Ismino,M,25,III,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-16,26,5,0.23,0,19.9
+20240303,Astrid Sanchez,F,18,V,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-28,16,0,0.01,0,14.8
+20240304,Juliana Cruz,F,22,II,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-12,92,27,-0.92,1,8.7
+20240305,Emilio Vargas,M,19,III,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-30,16,3,0.91,0,16.9
+20240306,Martina Soto,F,23,X,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-31,17,3,0.44,0,14.4
+20240307,Patricia Solis,F,26,X,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-12,43,4,0.69,0,17.7
+20240308,Mateo Rios,M,24,III,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-01,20,4,0.85,0,19.1
+20240309,Isabella Morales,F,21,VI,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-02,81,9,-0.45,1,11.8
+20240310,Ximena Cruz,F,19,VIII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-08,57,5,0.02,1,16.4
+20240311,Miguel Castro,M,22,IX,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-11,31,2,0.83,0,18.9
+20240312,Laura Rey,F,25,VI,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-08,96,20,-1.0,1,8.6
+20240313,Hugo Caro,M,19,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-09,57,5,0.41,0,15.5
+20240314,Patricia Luna,F,21,VIII,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-07,12,5,0.84,0,17.5
+20240315,Catalina Gil,F,26,III,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-03,45,3,0.84,0,16.9
+20240316,Gianpierre Caro,M,20,III,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-12,30,4,0.88,0,16.5
+20240317,Diego Rojas,M,24,VI,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-21,92,29,-0.91,1,10.2
+20240318,Ricardo Arce,M,21,IV,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-13,82,7,-0.11,0,13.3
+20240319,Gonzalo Celi,M,23,II,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-07,52,5,0.42,0,18.5
+20240320,Patricia Vega,F,18,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-25,96,14,-0.94,0,10.4
+20240321,Rodrigo Chavez,M,20,I,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-14,12,2,0.81,0,14.6
+20240322,Angel Flores,M,26,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-14,34,3,0.42,0,18.7
+20240323,Luis Perez,M,22,IV,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-23,81,11,-0.27,0,12.3
+20240324,Pedro Silva,M,25,III,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-12,57,4,0.12,0,14.2
+20240325,Lucia Gil,F,22,I,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-15,12,1,0.93,0,17.6
+20240326,Miguel Mesa,M,22,VIII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-05,30,4,0.22,1,15.1
+20240327,Victor Mora,M,26,VII,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-15,52,2,0.33,0,15.8
+20240328,Mateo Arce,M,18,II,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-29,81,10,-0.15,0,11.9
+20240329,Raul Soto,M,19,VII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-02,59,2,0.51,0,17.1
+20240330,Antonella Fernandez,F,23,IX,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-11,59,4,0.53,0,17.8
+20240331,Pedro Solis,M,24,II,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-11,14,5,0.69,0,14.1
+20240332,Elena Torres,F,20,V,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-06,26,3,0.39,0,17.8
+20240333,Catalina Ismino,F,26,I,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-18,12,5,0.85,0,16.1
+20240334,Catalina Mendoza,F,19,V,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-26,11,3,0.16,0,15.3
+20240335,Angel Mora,M,22,III,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-30,99,30,-0.96,1,7.2
+20240336,Carlos Mendoza,M,21,VI,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-27,42,1,0.16,0,15.3
+20240337,Lucia Mesa,F,18,IX,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-19,26,0,0.2,0,17.5
+20240338,Catalina Pino,F,21,II,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-27,76,9,-0.5,0,13.3
+20240339,Hugo Morales,M,24,III,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-16,55,5,0.64,0,15.7
+20240340,Raul Nunez,M,25,VIII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-01,21,5,0.61,0,19.1
+20240341,Gabriela Fernandez,F,22,II,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-27,94,13,-0.76,0,9.6
+20240342,Felipe Chavez,M,26,IX,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-24,59,4,0.73,0,15.7
+20240343,Javier Ortiz,M,26,I,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-24,49,5,0.17,0,17.1
+20240344,Ximena Mesa,F,20,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-15,24,0,0.26,0,15.4
+20240345,Jose Ortiz,M,24,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-03,30,0,0.7,0,17.1
+20240346,Jorge Gil,M,26,X,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-11,47,5,0.9,0,14.5
+20240347,Diego Vera,M,24,VI,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-20,48,0,0.5,0,14.8
+20240348,Antonella Rojas,F,21,III,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-24,17,5,0.23,0,18.9
+20240349,Isabella Nunez,F,21,X,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-02,65,10,-0.34,0,11.5
+20240350,Gersson Torres,M,20,V,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-08,50,0,0.88,0,18.4
+20240351,Pedro Cruz,M,25,VIII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-23,19,4,0.82,0,15.1
+20240352,Samantha Solis,F,23,VIII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-15,18,0,0.02,0,17.1
+20240353,Miguel Vasquez,M,19,III,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-26,42,0,0.09,0,18.0
+20240354,Juan Medina,M,24,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-25,94,26,-0.93,1,10.6
+20240355,Paula Frias,F,19,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-31,15,2,0.6,0,17.3
+20240356,Samantha Perez,F,26,II,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-25,54,2,0.41,0,14.6
+20240357,Jorge Mora,M,24,X,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-13,23,3,0.55,0,17.3
+20240358,Mateo Chavez,M,22,X,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-17,99,16,-0.78,0,9.0
+20240359,Andrea Luna,F,23,IX,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-11,50,0,0.8,0,18.9
+20240360,Carlos Lopez,M,22,IV,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-08,92,25,-0.82,0,9.3
+20240361,Miguel Sanchez,M,25,VIII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-24,43,2,0.19,0,18.7
+20240362,Tomas Vargas,M,18,VI,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-11,90,25,-0.89,0,8.8
+20240363,Nicolas Muro,M,19,II,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-16,47,2,0.35,0,18.9
+20240364,Hector Luna,M,18,V,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-02,87,29,-0.91,1,11.3
+20240365,Miguel Cano,M,22,VIII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-19,71,12,-0.42,0,12.6
+20240366,Natalia Lopez,F,24,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-21,72,10,-0.37,1,13.5
+20240367,Elena Luna,F,23,II,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-31,67,10,-0.53,0,14.3
+20240368,Carmen Diaz,F,21,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-13,49,2,0.16,0,14.6
+20240369,Rodrigo Rivas,M,18,IX,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-24,41,4,0.87,0,16.9
+20240370,Jorge Luna,M,21,X,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-03,40,4,0.03,0,16.1
+20240371,Hector Ismino,M,26,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-01,34,4,0.1,0,16.2
+20240372,Natalia Diaz,F,22,VIII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-24,74,7,-0.44,1,13.6
+20240373,Jorge Cruz,M,20,X,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-22,90,20,-0.83,0,10.9
+20240374,Samantha Vasquez,F,25,I,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-01,100,29,-0.84,1,8.4
+20240375,Gabriela Cano,F,18,VII,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-04,69,9,-0.2,1,11.3
+20240376,Brenda Arce,F,26,V,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-27,99,19,-0.83,0,9.9
+20240377,Andres Rios,M,23,IX,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-26,95,22,-0.86,0,11.3
+20240378,Ricardo Aguilar,M,24,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-24,15,1,0.34,0,15.9
+20240379,Tomas Pino,M,24,V,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-17,38,3,0.17,0,19.1
+20240380,Natalia Frias,F,19,IV,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-07,100,28,-0.84,1,7.1
+20240381,Carlos Antunez,M,22,X,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-11,34,2,0.23,0,18.4
+20240382,Andrea Vargas,F,18,I,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-25,40,3,0.97,0,17.2
+20240383,Diana Mora,F,20,X,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-10,46,3,0.52,0,17.8
+20240384,Gabriela Flores,F,19,VIII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-27,70,6,-0.69,0,13.9
+20240385,Isabella Mora,F,18,VIII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-01,28,4,0.23,0,14.0
+20240386,Gabriela Vega,F,24,IV,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-23,26,0,0.42,0,15.4
+20240387,Jose Caro,M,22,V,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-27,63,7,-0.61,1,11.4
+20240388,Jorge Caro,M,25,IV,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-10,94,13,-0.94,1,7.5
+20240389,Valeria Tello,F,18,IV,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-01,31,3,0.31,0,18.8
+20240390,Paula Ruiz,F,23,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-18,14,4,0.47,0,15.2
+20240391,Miguel Perez,M,19,IV,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-16,12,1,0.46,0,18.6
+20240392,Mateo Soto,M,22,VI,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-17,43,0,0.25,0,17.8
+20240393,Angel Mesa,M,21,II,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-21,98,21,-0.82,0,8.8
+20240394,Ana Gil,F,25,X,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-19,88,28,-0.97,0,9.8
+20240395,Antonella Vasquez,F,26,II,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-15,78,12,-0.31,1,12.2
+20240396,Juan Caro,M,24,VI,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-17,41,5,0.44,0,15.8
+20240397,Lucia Mora,F,23,VI,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-18,48,4,0.16,0,17.2
+20240398,Felipe Ortiz,M,25,I,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-16,61,10,-0.18,0,13.7
+20240399,Elena Mesa,F,26,VII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-19,49,2,0.32,0,17.8
+20240400,Carlos Ruiz,M,20,III,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-07,16,0,0.57,0,19.0
+20240401,Gonzalo Gil,M,22,I,Media,Derecho,Derecho y Humanidades,Letras,2026-06-08,10,1,0.66,0,19.6
+20240402,Antonella Torres,F,23,IX,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-22,55,0,0.82,1,15.6
+20240403,Sofia Lopez,F,21,IX,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-16,73,7,-0.58,0,13.3
+20240404,Felipe Paz,M,19,X,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-14,16,1,0.79,0,17.3
+20240405,Felipe Alba,M,25,VI,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-24,58,5,0.43,0,18.4
+20240406,Pedro Soto,M,26,V,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-29,10,5,0.03,1,15.7
+20240407,Juliana Mendoza,F,18,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-24,85,12,-0.13,0,13.9
+20240408,Valeria Rios,F,20,III,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-26,24,2,0.81,0,14.6
+20240409,Nicolas Lopez,M,23,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-22,54,4,0.82,0,14.6
+20240410,Paula Cano,F,24,II,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-23,37,3,0.93,0,14.7
+20240411,Angel Alba,M,18,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-03,94,17,-0.9,0,10.1
+20240412,Samantha Luna,F,25,X,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-15,60,3,0.15,0,16.0
+20240413,Felipe Luna,M,22,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-19,58,1,0.48,0,15.2
+20240414,Felipe Rey,M,26,IV,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-18,30,5,0.92,0,14.5
+20240415,Brenda Fernandez,F,23,VI,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-19,72,10,-0.21,0,13.8
+20240416,Valeria Flores,F,21,VI,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-08,25,4,0.93,0,19.2
+20240417,Diana Ismino,F,22,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-22,78,7,-0.57,1,12.8
+20240418,Tomas Tello,M,20,I,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-17,70,7,-0.22,0,13.2
+20240419,Maria Lopez,F,24,V,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-25,90,25,-0.93,0,8.7
+20240420,Mateo Alba,M,26,II,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-02,45,5,0.02,0,15.5
+20240421,Daniela Frias,F,20,I,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-23,25,4,0.28,0,14.4
+20240422,Claudia Gomez,F,26,V,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-22,52,1,0.09,0,16.3
+20240423,Emilio Solis,M,21,VII,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-28,48,2,0.45,0,14.8
+20240424,Rodrigo Fernandez,M,20,V,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-28,59,1,0.66,0,17.4
+20240425,Gabriela Tello,F,19,III,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-16,91,26,-0.71,1,8.4
+20240426,Carmen Antunez,F,20,III,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-08,24,4,0.23,0,18.1
+20240427,Mateo Inofuente,M,26,X,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-12,41,3,0.14,1,15.2
+20240428,Juan Rojas,M,24,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-18,66,9,-0.18,1,12.7
+20240429,Fernando Diaz,M,24,VII,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-16,80,11,-0.35,0,12.9
+20240430,Hector Leon,M,18,IV,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-17,92,29,-0.77,0,11.3
+20240431,Daniela Mendoza,F,22,VIII,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-19,13,5,0.52,0,14.9
+20240432,Samantha Peña,F,19,III,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-26,38,0,0.18,0,17.5
+20240433,Valeria Castro,F,22,VI,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-15,15,0,0.71,1,17.8
+20240434,Nicolas Peña,M,20,VII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-03,31,4,0.87,0,19.2
+20240435,Laura Muro,F,18,VII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-16,38,2,0.63,0,14.7
+20240436,Martina Herrera,F,22,I,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-24,10,4,0.88,0,15.4
+20240437,Camila Cruz,F,19,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-16,27,4,0.63,0,18.9
+20240438,Ana Pino,F,23,I,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-12,48,2,0.33,0,14.5
+20240439,Gianpierre Solis,M,22,X,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-30,33,0,0.09,0,15.8
+20240440,Elena Herrera,F,24,IX,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-31,97,21,-0.9,0,8.9
+20240441,Tomas Torres,M,19,X,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-31,48,5,0.29,0,17.7
+20240442,Tomas Rios,M,20,X,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-03,41,3,0.81,0,19.3
+20240443,Carmen Perez,F,19,I,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-17,49,3,0.41,0,16.0
+20240444,Juan Celi,M,21,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-20,78,8,-0.24,1,11.4
+20240445,Samantha Cano,F,18,III,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-23,82,9,-0.15,0,13.8
+20240446,Antonella Leon,F,26,VI,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-29,43,2,0.56,0,18.1
+20240447,Ximena Solis,F,23,VI,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-18,31,3,0.63,0,19.1
+20240448,Martina Ismino,F,22,VI,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-18,41,1,0.37,0,19.0
+20240449,Gianpierre Ismino,M,23,I,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-29,40,4,0.15,0,16.0
+20240450,Andres Medina,M,23,III,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-14,39,3,0.71,1,17.1
+20240451,Rodrigo Alba,M,19,VI,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-07,52,5,0.31,0,17.5
+20240452,Raul Fernandez,M,21,V,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-19,17,2,0.15,1,15.6
+20240453,Simon Antunez,M,21,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-18,97,22,-0.83,1,7.8
+20240454,Raul Mora,M,25,I,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-31,13,0,0.38,0,14.5
+20240455,Fernando Gil,M,25,X,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-22,55,5,0.81,0,14.5
+20240456,Sebastian Inofuente,M,19,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-20,55,3,0.47,0,19.7
+20240457,Jorge Ortiz,M,24,III,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-20,30,3,0.49,0,14.4
+20240458,Patricia Vargas,F,22,VI,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-02,99,16,-0.9,1,9.9
+20240459,Javier Gil,M,24,IV,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-05,76,9,-0.65,1,11.7
+20240460,Victor Cano,M,23,IX,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-12,14,5,0.93,0,17.4
+20240461,Hector Morales,M,26,II,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-20,14,4,0.11,0,18.9
+20240462,Isabella Pino,F,18,II,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-26,58,5,0.81,0,18.5
+20240463,Sofia Soto,F,25,IV,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-20,53,2,0.92,0,19.6
+20240464,Carlos Gil,M,18,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-24,90,14,-0.89,0,9.5
+20240465,Gabriela Rios,F,19,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-28,35,5,0.32,0,16.3
+20240466,Rodrigo Sanchez,M,25,III,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-23,36,1,0.29,0,19.2
+20240467,Antonella Gomez,F,20,VIII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-09,96,26,-0.74,1,11.0
+20240468,Hector Peña,M,24,IX,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-23,74,10,-0.69,0,12.7
+20240469,Jorge Paz,M,26,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-03,55,2,0.11,0,16.9
+20240470,Samantha Vera,F,22,VIII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-03,15,1,0.47,0,18.5
+20240471,Antonella Mora,F,22,X,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-04,40,3,0.51,0,16.8
+20240472,Paula Silva,F,22,III,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-16,26,0,0.63,0,17.5
+20240473,Andres Frias,M,18,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-09,60,2,0.25,0,17.7
+20240474,Samantha Ismino,F,20,X,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-12,21,2,0.78,0,15.4
+20240475,Luis Aguilar,M,19,III,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-23,36,3,0.24,0,16.6
+20240476,Samantha Rios,F,18,V,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-11,40,2,0.48,0,19.7
+20240477,Catalina Muro,F,24,VIII,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-03,10,2,0.93,0,16.7
+20240478,Rodrigo Ruiz,M,19,IX,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-24,51,2,0.33,1,15.6
+20240479,Javier Leon,M,21,X,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-13,21,2,0.55,0,18.0
+20240480,Astrid Vera,F,19,VIII,Media,Derecho,Derecho y Humanidades,Letras,2026-06-16,67,6,-0.68,0,11.3
+20240481,Emilio Ismino,M,19,II,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-25,51,4,0.8,0,15.1
+20240482,Sofia Leon,F,19,VIII,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-14,59,2,0.26,0,18.7
+20240483,Daniela Aguilar,F,18,V,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-29,100,19,-0.82,1,7.8
+20240484,Gabriela Medina,F,24,IV,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-28,26,0,0.03,0,14.4
+20240485,Juan Rivas,M,20,I,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-18,71,9,-0.35,1,12.8
+20240486,Daniela Tello,F,19,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-25,59,3,0.12,0,17.2
+20240487,Sofia Luna,F,18,II,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-06,58,2,0.65,1,15.1
+20240488,Carmen Mendoza,F,24,II,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-01,96,27,-0.78,0,7.6
+20240489,Ximena Diaz,F,25,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-01,38,0,0.04,0,14.3
+20240490,Astrid Ramirez,F,26,VIII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-17,14,0,0.74,1,16.9
+20240491,Tomas Ruiz,M,21,III,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-10,90,16,-0.86,0,7.8
+20240492,Marck Ismino,M,25,X,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-05,37,2,0.81,0,19.9
+20240493,Catalina Cano,F,26,III,Media,Derecho,Derecho y Humanidades,Letras,2026-06-18,88,23,-0.98,1,8.2
+20240494,Brenda Arce,F,20,VIII,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-09,99,25,-0.77,1,7.1
+20240495,Maria Sanchez,F,19,X,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-14,59,3,0.69,0,15.2
+20240496,Victor Diaz,M,20,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-08,76,10,-0.13,1,13.2
+20240497,Maria Arce,F,21,IV,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-09,58,4,0.51,0,16.8
+20240498,Ana Fernandez,F,19,III,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-01,82,6,-0.66,0,12.3
+20240499,Monica Rey,F,25,I,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-29,20,0,0.49,0,14.7
+20240500,Sebastian Gil,M,23,VII,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-15,30,1,0.1,0,18.4
+20240501,Silvia Lopez,F,25,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-26,23,4,0.45,0,16.3
+20240502,Emilio Rios,M,22,IV,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-03,13,2,0.14,0,19.1
+20240503,Monica Flores,F,22,X,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-06,24,0,0.41,0,17.1
+20240504,Isabella Leon,F,22,I,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-17,25,2,0.43,0,15.3
+20240505,Ricardo Cano,M,18,VII,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-31,42,0,0.43,0,16.4
+20240506,Marck Cruz,M,25,IV,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-14,23,1,0.36,0,15.4
+20240507,Catalina Mendoza,F,20,VIII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-30,18,5,0.41,0,18.7
+20240508,Antonella Perez,F,19,VII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-03,92,21,-0.79,0,9.8
+20240509,Carlos Rey,M,23,I,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-26,92,24,-0.86,1,7.2
+20240510,Gabriela Muro,F,19,IX,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-09,25,4,0.11,0,16.9
+20240511,Gonzalo Ramirez,M,21,VI,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-02,27,0,0.06,0,16.1
+20240512,Marck Nunez,M,26,IX,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-09,53,5,0.81,1,19.6
+20240513,Hector Castro,M,19,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-05,90,16,-0.79,0,9.2
+20240514,Emilio Gomez,M,22,VII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-31,75,11,-0.31,0,12.0
+20240515,Paula Flores,F,26,VI,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-11,30,3,0.59,0,18.2
+20240516,Sofia Cano,F,20,V,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-15,28,0,0.15,0,15.7
+20240517,Gianpierre Muro,M,26,V,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-23,52,1,0.16,0,14.7
+20240518,Hector Chavez,M,23,III,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-12,72,7,-0.47,0,12.9
+20240519,Marck Gomez,M,24,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-29,61,11,-0.37,1,12.8
+20240520,Sofia Herrera,F,20,X,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-22,56,3,0.9,0,14.8
+20240521,Daniela Rey,F,21,VIII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-21,96,19,-0.82,1,8.0
+20240522,Elena Mora,F,25,II,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-13,48,4,0.51,0,14.3
+20240523,Diana Vega,F,23,VII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-19,70,9,-0.17,1,11.3
+20240524,Victor Cruz,M,22,III,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-16,18,4,0.6,0,14.9
+20240525,Simon Aguilar,M,19,X,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-01,27,3,0.17,0,16.8
+20240526,Pedro Sanchez,M,24,V,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-03,29,4,0.3,0,17.4
+20240527,Maria Vasquez,F,22,V,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-08,28,3,0.18,0,19.4
+20240528,Laura Rojas,F,25,II,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-07,37,2,0.63,0,16.9
+20240529,Andrea Tello,F,18,V,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-10,83,7,-0.48,1,11.2
+20240530,Valeria Rios,F,18,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-02,81,7,-0.24,0,13.1
+20240531,Angel Morales,M,22,V,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-07,32,1,0.01,0,17.1
+20240532,Monica Vargas,F,19,IV,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-23,78,10,-0.28,0,14.3
+20240533,Valeria Lopez,F,19,III,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-23,72,7,-0.21,1,14.1
+20240534,Sofia Gomez,F,19,IV,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-14,65,7,-0.61,0,11.3
+20240535,Laura Nunez,F,24,I,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-03,42,4,0.06,0,14.7
+20240536,Catalina Perez,F,19,II,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-07,21,5,0.35,0,14.5
+20240537,Sebastian Rios,M,23,III,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-02,16,4,0.76,0,17.2
+20240538,Gianpierre Herrera,M,26,I,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-29,77,12,-0.27,0,12.3
+20240539,Astrid Sanchez,F,23,VII,Media,Derecho,Derecho y Humanidades,Letras,2026-06-02,64,12,-0.11,0,11.4
+20240540,Mateo Herrera,M,23,V,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-06,64,9,-0.52,1,13.1
+20240541,Miguel Cruz,M,21,IX,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-24,14,3,0.94,1,16.2
+20240542,Rodrigo Antunez,M,24,VIII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-08,92,16,-0.78,0,11.0
+20240543,Carmen Aguilar,F,21,X,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-15,56,3,0.28,0,18.3
+20240544,Paula Pino,F,24,VI,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-01,19,3,0.11,0,15.5
+20240545,Gersson Gomez,M,19,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-13,88,25,-0.82,1,8.5
+20240546,Marck Herrera,M,19,IX,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-13,76,9,-0.39,0,12.9
+20240547,Luis Vega,M,19,VII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-24,39,0,0.03,0,17.3
+20240548,Diana Vargas,F,25,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-15,58,0,0.57,0,16.9
+20240549,Mateo Nunez,M,26,III,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-26,79,9,-0.33,1,12.2
+20240550,Maria Gil,F,18,III,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-21,11,5,0.34,0,14.6
+20240551,Brenda Torres,F,21,IV,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-07,97,15,-0.74,0,7.5
+20240552,Monica Ruiz,F,25,VII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-18,93,13,-0.7,1,8.7
+20240553,Astrid Rivas,F,19,IV,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-02,52,2,0.17,0,15.8
+20240554,Antonella Lopez,F,26,IV,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-04,79,9,-0.22,0,13.2
+20240555,Sebastian Antunez,M,23,V,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-28,63,11,-0.2,1,12.8
+20240556,Gabriela Morales,F,21,VII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-09,52,4,0.18,0,14.1
+20240557,Sebastian Rivas,M,21,VIII,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-29,50,0,0.52,0,16.2
+20240558,Catalina Herrera,F,22,VII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-25,14,5,0.2,0,16.5
+20240559,Jorge Solis,M,21,VII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-10,68,12,-0.2,1,12.6
+20240560,Juliana Ruiz,F,21,III,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-02,69,11,-0.37,0,13.3
+20240561,Mateo Gomez,M,18,II,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-25,92,24,-0.8,1,11.0
+20240562,Nicolas Inofuente,M,21,II,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-03,47,4,0.25,0,19.3
+20240563,Paula Morales,F,23,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-21,25,3,0.22,0,14.6
+20240564,Camila Chavez,F,18,VIII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-14,30,4,0.42,0,18.1
+20240565,Ricardo Vasquez,M,23,VIII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-22,81,10,-0.67,0,13.6
+20240566,Jose Mesa,M,21,V,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-20,54,2,0.9,0,18.1
+20240567,Valeria Soto,F,18,VII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-06,58,1,0.3,0,19.2
+20240568,Monica Medina,F,24,I,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-22,41,3,0.74,0,19.6
+20240569,Valeria Antunez,F,20,V,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-23,56,4,0.74,1,16.7
+20240570,Antonella Sanchez,F,25,III,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-13,30,4,0.08,0,14.9
+20240571,Miguel Pino,M,20,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-20,38,3,0.87,0,14.8
+20240572,Raul Silva,M,21,II,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-12,34,4,0.22,0,19.7
+20240573,Emilio Flores,M,19,VIII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-14,13,3,0.62,0,17.6
+20240574,Gianpierre Cano,M,19,I,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-19,39,5,0.49,0,15.3
+20240575,Miguel Rojas,M,22,VIII,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-28,48,1,1.0,0,15.7
+20240576,Camila Vasquez,F,18,V,Media,Derecho,Derecho y Humanidades,Letras,2026-06-09,25,2,0.58,1,17.9
+20240577,Patricia Morales,F,24,IV,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-15,48,2,0.07,1,17.3
+20240578,Mateo Rios,M,18,I,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-20,52,2,0.13,1,19.4
+20240579,Lucia Peña,F,25,VI,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-06,77,9,-0.61,0,11.4
+20240580,Mateo Rojas,M,23,VII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-09,26,4,0.31,0,19.4
+20240581,Alejandro Vasquez,M,26,VIII,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-10,88,14,-0.86,1,7.7
+20240582,Juliana Rivas,F,18,VIII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-30,56,1,0.12,0,14.6
+20240583,Lucia Frias,F,26,V,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-07,10,4,0.77,0,15.1
+20240584,Isabella Solis,F,19,VI,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-13,17,3,0.37,0,19.6
+20240585,Maria Castro,F,25,VIII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-08,31,0,0.66,0,19.7
+20240586,Nicolas Cano,M,20,IV,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-21,57,0,0.55,1,17.6
+20240587,Silvia Medina,F,24,II,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-11,35,2,0.65,0,19.7
+20240588,Paula Vega,F,22,X,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-12,91,29,-0.94,1,9.0
+20240589,Ximena Alba,F,24,II,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-09,81,9,-0.64,1,12.8
+20240590,Emilio Solis,M,20,VIII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-19,15,3,0.3,0,19.9
+20240591,Silvia Vera,F,24,V,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-05,86,29,-0.97,0,8.9
+20240592,Samantha Cano,F,22,VI,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-19,17,5,0.66,0,15.1
+20240593,Elena Paz,F,22,VI,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-18,49,2,0.34,0,19.5
+20240594,Elena Frias,F,22,II,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-01,10,1,0.66,0,16.8
+20240595,Nicolas Alba,M,25,V,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-14,54,5,0.39,0,15.8
+20240596,Astrid Gomez,F,21,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-11,89,26,-0.75,0,10.9
+20240597,Laura Leon,F,20,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-08,65,11,-0.28,1,14.4
+20240598,Valeria Gil,F,21,IV,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-04,64,11,-0.19,1,12.5
+20240599,Nicolas Gil,M,26,V,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-26,47,5,0.61,0,18.1
+20240600,Diana Torres,F,26,I,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-05,100,26,-0.73,1,7.5
+20240601,Camila Gomez,F,20,V,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-31,68,10,-0.56,1,14.2
+20240602,Angel Muro,M,25,III,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-27,53,5,0.73,0,18.8
+20240603,Tomas Ramirez,M,22,II,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-09,66,10,-0.4,1,13.8
+20240604,Carmen Arce,F,18,I,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-23,21,4,0.03,0,14.4
+20240605,Marck Arce,M,21,VIII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-20,12,4,0.27,0,14.9
+20240606,Rodrigo Antunez,M,18,VIII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-07,49,0,0.82,0,14.3
+20240607,Angel Ramirez,M,23,III,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-15,42,3,0.73,0,14.6
+20240608,Rosa Ismino,F,21,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-16,40,2,0.29,0,15.0
+20240609,Victor Ortiz,M,21,III,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-20,74,9,-0.15,1,14.1
+20240610,Hector Vasquez,M,18,IX,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-22,85,7,-0.43,0,12.4
+20240611,Emilio Vasquez,M,18,IX,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-26,54,4,0.87,0,18.3
+20240612,Claudia Rojas,F,26,X,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-29,44,4,0.79,0,17.9
+20240613,Jose Pino,M,24,IV,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-03,34,5,0.72,0,19.3
+20240614,Pedro Castro,M,26,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-18,11,0,0.89,0,17.2
+20240615,Andres Tello,M,24,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-23,50,4,0.35,0,14.3
+20240616,Sofia Cano,F,18,VIII,Media,Derecho,Derecho y Humanidades,Letras,2026-06-21,47,4,0.71,0,19.6
+20240617,Diego Rios,M,22,V,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-15,57,1,0.11,0,17.1
+20240618,Hector Antunez,M,20,VII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-06,100,17,-0.86,1,9.0
+20240619,Javier Gil,M,26,IX,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-07,37,3,0.69,0,19.7
+20240620,Lucia Vasquez,F,26,III,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-09,42,4,0.12,0,15.3
+20240621,Felipe Ortiz,M,19,X,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-08,28,0,0.52,0,14.7
+20240622,Sofia Rivas,F,18,III,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-04,29,2,0.22,0,18.9
+20240623,Brenda Lopez,F,18,VII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-06,31,3,0.48,0,18.3
+20240624,Simon Celi,M,25,VIII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-10,30,0,0.8,0,18.0
+20240625,Daniela Aguilar,F,26,I,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-17,63,12,-0.59,1,11.1
+20240626,Marck Pino,M,26,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-06,58,3,0.5,0,14.1
+20240627,Juan Rojas,M,21,IV,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-06,48,2,0.4,0,14.3
+20240628,Camila Sanchez,F,24,I,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-25,64,6,-0.37,0,12.0
+20240629,Elena Vasquez,F,22,VII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-04,30,1,0.03,0,14.4
+20240630,Camila Morales,F,22,VII,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-13,80,10,-0.55,1,12.8
+20240631,Jorge Torres,M,23,VIII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-05,36,5,0.23,0,19.3
+20240632,Rodrigo Antunez,M,21,IX,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-20,38,0,0.85,0,17.0
+20240633,Gabriela Vargas,F,21,IX,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-03,93,22,-0.8,0,7.8
+20240634,Mateo Rojas,M,22,VII,Media,Derecho,Derecho y Humanidades,Letras,2026-06-07,28,0,0.16,1,17.2
+20240635,Diana Ismino,F,20,IX,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-14,30,5,0.95,0,17.8
+20240636,Jorge Diaz,M,23,VI,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-08,83,7,-0.31,1,11.0
+20240637,Maria Solis,F,20,VII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-18,15,5,0.65,0,17.2
+20240638,Hector Solis,M,19,VI,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-25,85,12,-0.28,1,11.0
+20240639,Carmen Cruz,F,18,IV,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-18,83,8,-0.58,1,13.9
+20240640,Diego Flores,M,25,VI,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-01,55,4,0.21,0,15.2
+20240641,Patricia Rojas,F,26,VIII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-12,53,5,0.6,0,15.1
+20240642,Gersson Chavez,M,21,IX,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-13,11,5,0.68,0,17.7
+20240643,Juan Vega,M,18,VI,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-18,94,27,-0.85,0,9.3
+20240644,Diego Torres,M,22,VII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-21,89,23,-0.98,0,9.6
+20240645,Diego Caro,M,24,II,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-11,63,11,-0.32,1,11.1
+20240646,Sebastian Celi,M,23,V,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-31,71,12,-0.66,0,12.2
+20240647,Alejandro Alba,M,25,II,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-07,86,14,-0.89,0,11.0
+20240648,Luis Cruz,M,18,V,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-05,86,30,-0.98,1,10.8
+20240649,Laura Paz,F,21,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-30,60,3,0.88,0,17.7
+20240650,Jose Gomez,M,25,IX,Media,Derecho,Derecho y Humanidades,Letras,2026-05-07,95,15,-0.82,0,10.8
+20240651,Jorge Rios,M,24,VIII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-12,62,6,-0.61,1,13.0
+20240652,Juliana Mora,F,20,III,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-08,72,6,-0.38,0,13.3
+20240653,Andrea Arce,F,18,VII,Media,Derecho,Derecho y Humanidades,Letras,2026-05-13,22,0,0.34,0,18.0
+20240654,Tomas Caro,M,23,X,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-09,71,7,-0.63,0,14.1
+20240655,Valeria Perez,F,21,IV,Media,Derecho,Derecho y Humanidades,Letras,2026-05-16,59,2,0.81,0,16.3
+20240656,Juan Ortiz,M,18,II,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-05,90,27,-0.94,1,9.6
+20240657,Maria Fernandez,F,21,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-26,66,8,-0.19,0,11.9
+20240658,Claudia Chavez,F,19,I,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-25,17,2,0.94,0,15.8
+20240659,Rodrigo Vargas,M,26,X,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-08,100,17,-0.76,1,7.9
+20240660,Raul Alba,M,24,IV,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-24,60,1,0.33,0,14.3
+20240661,Angel Peña,M,25,IV,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-20,52,4,0.06,0,17.1
+20240662,Simon Ortiz,M,25,IX,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-21,43,5,0.48,0,19.7
+20240663,Emilio Gil,M,18,IV,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-29,35,1,0.31,0,19.3
+20240664,Hugo Chavez,M,26,II,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-19,32,1,0.58,0,16.8
+20240665,Valeria Vega,F,24,VI,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-18,21,3,0.23,0,17.9
+20240666,Claudia Peña,F,26,IX,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-20,68,6,-0.62,0,12.3
+20240667,Catalina Aguilar,F,22,V,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-13,18,5,0.74,1,19.5
+20240668,Claudia Rios,F,24,VII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-31,58,1,0.87,0,15.4
+20240669,Silvia Vera,F,26,VIII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-22,30,1,0.43,0,19.7
+20240670,Patricia Arce,F,18,VI,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-20,10,3,0.81,0,19.0
+20240671,Catalina Herrera,F,24,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-07,98,14,-0.72,1,7.7
+20240672,Jose Alba,M,24,VII,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-05,22,3,0.11,0,17.4
+20240673,Carlos Vargas,M,19,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-22,41,0,0.19,0,14.4
+20240674,Silvia Silva,F,26,II,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-24,20,2,0.86,0,16.5
+20240675,Gabriela Paz,F,25,II,Media,Derecho,Derecho y Humanidades,Letras,2026-05-09,29,3,0.82,0,18.0
+20240676,Andres Gil,M,21,IX,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-18,65,9,-0.65,0,12.4
+20240677,Ricardo Cano,M,25,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-17,96,27,-0.9,1,10.8
+20240678,Claudia Sanchez,F,24,IV,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-30,52,1,0.7,0,14.6
+20240679,Juliana Vargas,F,22,IX,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-14,23,3,0.41,0,18.6
+20240680,Laura Antunez,F,26,VI,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-11,77,6,-0.42,1,11.3
+20240681,Samantha Luna,F,21,VII,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-17,100,17,-0.9,1,10.4
+20240682,Elena Arce,F,21,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-22,66,7,-0.2,0,13.1
+20240683,Gabriela Frias,F,24,III,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-13,75,8,-0.59,0,13.5
+20240684,Ana Celi,F,26,II,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-29,86,14,-0.77,0,10.5
+20240685,Silvia Fernandez,F,19,I,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-01,67,11,-0.3,0,11.8
+20240686,Miguel Mesa,M,20,III,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-02,91,23,-0.83,0,7.9
+20240687,Javier Vega,M,19,IV,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-23,61,9,-0.3,0,11.0
+20240688,Elena Mesa,F,22,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-05,36,2,0.77,0,17.0
+20240689,Jose Cano,M,20,V,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-10,53,5,0.13,0,15.1
+20240690,Angel Mesa,M,25,II,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-08,38,3,0.51,0,18.5
+20240691,Juan Flores,M,18,X,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-16,58,1,0.62,0,14.4
+20240692,Rosa Soto,F,21,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-17,18,2,0.32,1,18.7
+20240693,Victor Pino,M,22,I,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-22,78,6,-0.16,0,13.3
+20240694,Gonzalo Tello,M,21,X,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-12,10,0,0.87,0,14.4
+20240695,Gersson Ramirez,M,20,II,Alta,Derecho,Derecho y Humanidades,Letras,2026-05-16,37,5,0.47,0,15.0
+20240696,Martina Diaz,F,22,V,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-10,76,6,-0.13,1,12.3
+20240697,Valeria Vega,F,26,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-18,76,6,-0.24,0,12.5
+20240698,Ricardo Mendoza,M,26,III,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-17,29,3,0.28,0,17.4
+20240699,Diana Nunez,F,21,III,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-01,56,5,0.37,0,16.4
+20240700,Samantha Ortiz,F,24,VIII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-27,17,3,0.93,0,15.0
+20240701,Alejandro Herrera,M,23,IX,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-10,54,0,0.65,0,19.6
+20240702,Ana Ortiz,F,18,III,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-30,26,1,0.6,0,19.7
+20240703,Laura Castro,F,24,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-03,37,1,0.83,0,15.5
+20240704,Rodrigo Soto,M,22,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-07,59,2,0.81,0,15.6
+20240705,Gonzalo Mendoza,M,18,III,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-07,97,26,-0.84,1,9.9
+20240706,Brenda Sanchez,F,20,IV,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-02,38,4,0.81,1,15.1
+20240707,Laura Fernandez,F,22,VII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-25,15,2,0.09,1,14.7
+20240708,Silvia Nunez,F,25,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-18,10,5,0.58,1,19.9
+20240709,Juan Soto,M,26,V,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-18,74,8,-0.47,1,14.1
+20240710,Hugo Mesa,M,24,VII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-23,16,0,0.46,0,18.2
+20240711,Gersson Gomez,M,19,IX,Media,Derecho,Derecho y Humanidades,Letras,2026-05-24,53,5,0.87,0,17.1
+20240712,Antonella Morales,F,18,VI,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-13,48,3,0.4,1,17.7
+20240713,Valeria Nunez,F,19,VII,Media,Derecho,Derecho y Humanidades,Letras,2026-06-15,94,29,-0.99,0,9.2
+20240714,Catalina Arce,F,25,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-31,25,1,0.21,0,18.5
+20240715,Camila Muro,F,18,III,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-19,84,8,-0.3,0,14.3
+20240716,Ricardo Mora,M,25,II,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-25,79,12,-0.14,1,11.2
+20240717,Diana Frias,F,24,IX,Media,Derecho,Derecho y Humanidades,Letras,2026-05-15,70,6,-0.62,0,12.2
+20240718,Marck Cano,M,23,III,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-06,29,0,0.59,0,15.1
+20240719,Laura Ortiz,F,20,IX,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-07,44,3,0.32,0,18.9
+20240720,Catalina Leon,F,20,X,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-17,54,0,0.6,0,15.9
+20240721,Patricia Muro,F,25,IV,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-15,13,2,0.15,0,18.3
+20240722,Diego Caro,M,18,III,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-20,52,1,0.99,0,17.3
+20240723,Hugo Herrera,M,24,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-19,22,5,0.86,0,16.4
+20240724,Sebastian Torres,M,22,VIII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-06,97,28,-0.91,0,7.7
+20240725,Pedro Frias,M,18,VI,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-13,19,3,0.95,0,16.6
+20240726,Marck Rios,M,25,III,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-02,47,3,0.97,0,17.8
+20240727,Silvia Luna,F,25,V,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-11,59,5,0.99,1,18.0
+20240728,Claudia Pino,F,24,V,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-24,87,15,-0.96,0,9.9
+20240729,Ximena Cano,F,25,V,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-20,34,3,1.0,0,18.2
+20240730,Monica Lopez,F,26,III,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-26,44,4,0.49,0,17.1
+20240731,Jose Pino,M,19,IV,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-12,54,1,0.01,0,16.7
+20240732,Ximena Ramirez,F,20,II,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-24,15,0,0.51,0,16.2
+20240733,Catalina Perez,F,21,V,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-12,18,4,0.49,0,15.9
+20240734,Tomas Mora,M,26,IV,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-12,25,0,0.19,0,15.8
+20240735,Tomas Arce,M,21,X,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-09,37,0,0.55,0,15.6
+20240736,Valeria Castro,F,22,VII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-04,81,11,-0.53,0,13.2
+20240737,Sebastian Mesa,M,26,X,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-22,74,9,-0.67,0,13.1
+20240738,Gabriela Ismino,F,26,VII,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-10,100,23,-0.77,0,7.7
+20240739,Astrid Soto,F,21,VII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-12,29,4,0.82,0,16.9
+20240740,Angel Silva,M,26,V,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-27,91,25,-0.95,1,10.6
+20240741,Rosa Chavez,F,18,IX,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-12,92,21,-0.98,1,10.3
+20240742,Diego Solis,M,24,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-23,42,2,0.28,0,16.6
+20240743,Miguel Flores,M,22,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-19,63,11,-0.64,0,13.6
+20240744,Ana Castro,F,22,IX,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-30,42,5,0.14,0,17.0
+20240745,Felipe Caro,M,19,VII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-28,10,5,0.42,0,17.2
+20240746,Rodrigo Vera,M,18,X,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-13,58,4,0.9,0,15.0
+20240747,Brenda Torres,F,24,VIII,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-24,31,5,0.25,0,17.2
+20240748,Sofia Nunez,F,22,V,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-17,35,1,0.92,0,19.6
+20240749,Fernando Ruiz,M,25,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-23,93,23,-0.91,1,7.5
+20240750,Gianpierre Luna,M,23,I,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-01,77,10,-0.16,1,12.4
+20240751,Laura Mesa,F,22,IV,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-24,74,7,-0.37,1,11.9
+20240752,Hector Vargas,M,20,VI,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-01,55,1,0.11,0,15.7
+20240753,Monica Ruiz,F,20,IV,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-08,45,3,0.8,0,18.3
+20240754,Fernando Luna,M,26,VII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-07,18,1,0.34,0,14.1
+20240755,Claudia Aguilar,F,24,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-28,28,3,0.08,0,16.6
+20240756,Gianpierre Diaz,M,22,II,Media,Derecho,Derecho y Humanidades,Letras,2026-06-12,22,3,0.71,0,18.9
+20240757,Gianpierre Fernandez,M,20,IV,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-26,89,17,-0.87,0,9.8
+20240758,Javier Paz,M,26,V,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-15,76,6,-0.39,1,13.3
+20240759,Brenda Rojas,F,23,VII,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-27,86,13,-0.98,0,10.4
+20240760,Natalia Alba,F,19,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-30,31,2,0.11,0,18.0
+20240761,Gersson Aguilar,M,23,VI,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-16,23,4,0.38,0,19.3
+20240762,Marck Ruiz,M,21,IV,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-29,94,23,-0.91,0,9.1
+20240763,Gersson Ruiz,M,20,IV,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-27,45,2,0.89,0,16.7
+20240764,Carlos Nunez,M,24,IX,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-11,54,1,0.29,1,19.7
+20240765,Pedro Frias,M,24,VIII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-11,42,3,0.56,0,16.3
+20240766,Maria Vargas,F,21,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-26,42,3,0.5,0,18.3
+20240767,Andres Muro,M,22,IX,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-15,89,22,-0.99,1,7.7
+20240768,Jorge Torres,M,21,IV,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-01,50,4,0.97,0,15.9
+20240769,Jorge Tello,M,20,VII,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-21,50,0,0.82,0,15.3
+20240770,Maria Mora,F,19,VII,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-25,48,4,0.21,0,16.7
+20240771,Antonella Herrera,F,24,III,Media,Derecho,Derecho y Humanidades,Letras,2026-06-16,33,1,0.9,0,14.6
+20240772,Patricia Sanchez,F,21,X,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-11,70,7,-0.17,0,13.9
+20240773,Elena Vega,F,21,VIII,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-07,18,5,0.75,1,14.1
+20240774,Astrid Perez,F,18,III,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-18,96,13,-0.76,0,7.0
+20240775,Miguel Aguilar,M,19,IV,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-18,38,1,0.31,0,16.9
+20240776,Jorge Celi,M,26,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-07,16,4,0.89,1,16.5
+20240777,Silvia Vega,F,24,III,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-15,53,3,0.69,0,18.3
+20240778,Astrid Flores,F,19,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-09,72,6,-0.16,0,13.1
+20240779,Monica Alba,F,20,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-09,32,0,0.27,0,17.0
+20240780,Valeria Muro,F,19,I,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-21,93,28,-0.76,1,7.5
+20240781,Jorge Vasquez,M,19,VI,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-19,30,3,0.42,0,18.2
+20240782,Raul Inofuente,M,21,VII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-04,44,4,0.82,0,16.3
+20240783,Ximena Medina,F,21,II,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-01,61,8,-0.36,0,14.4
+20240784,Brenda Ortiz,F,20,V,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-23,36,1,0.21,0,15.3
+20240785,Diana Muro,F,20,VII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-14,33,0,0.7,1,18.0
+20240786,Angel Vargas,M,18,III,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-06,61,10,-0.2,0,12.5
+20240787,Rosa Frias,F,26,V,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-16,81,11,-0.68,0,11.4
+20240788,Luis Alba,M,20,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-26,53,3,0.55,0,19.0
+20240789,Gonzalo Flores,M,24,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-03,18,5,0.21,0,17.7
+20240790,Samantha Arce,F,19,VIII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-11,34,1,0.05,0,16.2
+20240791,Astrid Lopez,F,23,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-16,78,6,-0.65,1,13.1
+20240792,Carmen Celi,F,18,IV,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-06,46,3,0.05,0,15.9
+20240793,Brenda Herrera,F,22,VII,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-21,56,2,0.97,1,18.2
+20240794,Samantha Peña,F,19,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-07,40,4,0.87,0,14.2
+20240795,Carlos Celi,M,19,IV,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-19,42,4,0.99,0,17.7
+20240796,Hector Inofuente,M,23,V,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-03,59,5,0.39,0,15.3
+20240797,Rosa Cano,F,25,II,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-19,45,0,0.5,0,16.7
+20240798,Elena Rojas,F,23,VI,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-12,39,2,0.99,0,19.9
+20240799,Valeria Inofuente,F,19,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-24,35,3,0.86,0,19.5
+20240800,Patricia Rey,F,23,VI,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-02,53,0,0.62,0,17.9
+20240801,Claudia Arce,F,18,III,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-25,73,12,-0.65,1,12.4
+20240802,Hugo Leon,M,25,IX,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-06,64,9,-0.24,1,11.7
+20240803,Monica Alba,F,25,IV,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-08,62,10,-0.6,0,12.6
+20240804,Ana Alba,F,24,I,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-31,67,12,-0.68,1,13.7
+20240805,Antonella Sanchez,F,19,III,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-26,99,27,-0.74,1,9.4
+20240806,Ana Castro,F,24,VI,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-13,74,9,-0.41,0,13.4
+20240807,Victor Rios,M,24,I,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-05,47,4,0.14,0,18.0
+20240808,Miguel Frias,M,23,I,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-29,99,23,-0.97,1,11.4
+20240809,Samantha Perez,F,25,III,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-10,16,0,0.22,0,19.9
+20240810,Gianpierre Alba,M,24,IV,Media,Derecho,Derecho y Humanidades,Letras,2026-06-30,82,10,-0.13,1,12.3
+20240811,Juliana Mendoza,F,26,II,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-11,36,3,0.35,0,19.0
+20240812,Raul Ismino,M,20,VIII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-12,20,4,0.44,0,15.7
+20240813,Emilio Silva,M,19,II,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-11,100,26,-0.97,0,10.4
+20240814,Simon Gil,M,18,V,Media,Derecho,Derecho y Humanidades,Letras,2026-05-15,45,3,0.11,0,19.1
+20240815,Paula Leon,F,24,VII,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-20,70,8,-0.17,1,11.9
+20240816,Juan Paz,M,18,I,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-20,43,5,0.6,0,16.0
+20240817,Diego Arce,M,24,IV,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-23,100,26,-0.96,0,9.9
+20240818,Monica Vera,F,20,VII,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-15,42,0,0.63,0,18.7
+20240819,Jorge Arce,M,20,VI,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-06,86,17,-0.99,0,10.2
+20240820,Juan Frias,M,20,VIII,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-12,68,8,-0.58,1,13.9
+20240821,Rodrigo Torres,M,22,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-10,16,0,0.46,0,17.6
+20240822,Juliana Sanchez,F,19,II,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-28,35,0,0.49,1,14.1
+20240823,Carlos Ramirez,M,24,VII,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-21,70,6,-0.16,0,13.3
+20240824,Monica Rios,F,25,X,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-11,26,0,0.19,1,14.2
+20240825,Gersson Ramirez,M,23,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-21,87,17,-0.92,0,9.2
+20240826,Gabriela Pino,F,22,VIII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-28,35,1,0.25,0,15.2
+20240827,Javier Antunez,M,22,III,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-28,37,4,0.75,0,18.9
+20240828,Victor Fernandez,M,23,VI,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-29,62,10,-0.54,1,12.4
+20240829,Astrid Sanchez,F,23,VII,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-16,96,24,-0.89,0,10.5
+20240830,Diana Perez,F,23,IV,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-27,63,9,-0.52,0,11.7
+20240831,Natalia Muro,F,19,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-13,30,2,0.2,0,14.3
+20240832,Natalia Paz,F,19,II,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-08,73,7,-0.35,0,12.0
+20240833,Andres Inofuente,M,24,I,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-22,14,3,0.1,0,18.8
+20240834,Laura Rios,F,24,II,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-01,35,2,0.7,0,16.7
+20240835,Marck Ortiz,M,19,I,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-22,87,23,-0.74,0,10.3
+20240836,Carmen Tello,F,23,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-17,12,0,0.05,0,15.8
+20240837,Jose Soto,M,22,III,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-08,99,17,-0.77,1,11.0
+20240838,Rodrigo Ismino,M,26,IX,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-12,27,2,0.77,1,16.9
+20240839,Gonzalo Castro,M,23,IX,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-14,93,14,-0.94,1,10.0
+20240840,Pedro Rivas,M,19,VI,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-18,55,3,0.66,0,19.1
+20240841,Valeria Ortiz,F,24,VIII,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-19,14,2,0.42,0,18.1
+20240842,Marck Vasquez,M,25,II,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-16,93,18,-0.92,1,9.1
+20240843,Astrid Arce,F,19,VI,Media,Derecho,Derecho y Humanidades,Letras,2026-05-10,37,4,0.33,0,16.6
+20240844,Daniela Tello,F,24,IV,Media,Derecho,Derecho y Humanidades,Letras,2026-05-26,69,10,-0.33,0,12.8
+20240845,Emilio Diaz,M,19,IV,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-27,90,20,-0.98,0,7.5
+20240846,Gonzalo Muro,M,24,VII,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-15,54,2,0.5,0,15.0
+20240847,Gonzalo Alba,M,22,I,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-02,49,3,0.74,0,19.1
+20240848,Catalina Lopez,F,20,III,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-10,52,3,0.43,0,14.1
+20240849,Gianpierre Solis,M,18,X,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-07,99,20,-0.86,0,7.2
+20240850,Andres Flores,M,26,IX,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-19,90,23,-0.86,1,10.3
+20240851,Jorge Ortiz,M,25,I,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-15,77,12,-0.3,1,14.0
+20240852,Catalina Vera,F,18,III,Media,Derecho,Derecho y Humanidades,Letras,2026-06-12,32,3,0.03,0,17.5
+20240853,Carmen Frias,F,19,IV,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-18,53,4,0.9,0,16.7
+20240854,Jorge Solis,M,23,VI,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-30,29,1,0.04,0,17.1
+20240855,Victor Leon,M,23,V,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-01,19,3,0.68,0,17.1
+20240856,Gianpierre Mendoza,M,25,V,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-01,23,2,0.83,0,14.7
+20240857,Brenda Mesa,F,18,I,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-23,60,4,0.67,0,18.6
+20240858,Natalia Vasquez,F,21,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-19,76,8,-0.54,1,13.4
+20240859,Juliana Antunez,F,22,V,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-12,53,2,0.8,0,14.8
+20240860,Camila Arce,F,21,V,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-20,50,3,0.55,0,16.3
+20240861,Rosa Vera,F,25,VI,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-30,39,3,0.96,0,16.8
+20240862,Laura Paz,F,19,III,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-20,77,8,-0.61,1,12.9
+20240863,Patricia Luna,F,20,VII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-30,43,3,0.84,0,14.5
+20240864,Marck Aguilar,M,19,V,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-14,62,6,-0.25,0,13.4
+20240865,Simon Vasquez,M,26,VIII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-27,19,2,0.63,0,18.3
+20240866,Tomas Caro,M,21,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-10,17,4,0.1,0,15.2
+20240867,Hector Luna,M,18,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-31,25,4,0.26,0,17.7
+20240868,Marck Vega,M,20,I,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-22,25,1,0.51,0,18.2
+20240869,Sofia Mesa,F,19,X,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-12,73,11,-0.22,1,12.6
+20240870,Sofia Leon,F,19,X,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-07,81,11,-0.16,0,13.2
+20240871,Hugo Inofuente,M,25,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-11,42,1,0.35,0,18.2
+20240872,Antonella Vasquez,F,23,X,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-15,18,2,0.78,0,18.0
+20240873,Claudia Pino,F,25,VII,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-06,42,5,0.53,0,14.8
+20240874,Hugo Gil,M,24,II,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-24,24,0,0.67,0,17.0
+20240875,Silvia Medina,F,21,II,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-18,14,0,0.61,0,14.7
+20240876,Laura Ortiz,F,18,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-14,18,5,0.57,0,15.2
+20240877,Sofia Flores,F,21,III,Media,Derecho,Derecho y Humanidades,Letras,2026-05-06,50,5,0.1,0,14.2
+20240878,Laura Paz,F,26,II,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-13,56,5,0.53,0,15.1
+20240879,Simon Rios,M,23,X,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-21,92,25,-0.74,0,9.6
+20240880,Andres Antunez,M,19,VIII,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-08,11,1,0.82,0,15.7
+20240881,Brenda Lopez,F,20,V,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-24,49,4,0.31,0,17.7
+20240882,Sebastian Nunez,M,22,I,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-27,71,12,-0.65,1,11.7
+20240883,Rodrigo Torres,M,21,VIII,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-23,36,4,0.74,0,19.6
+20240884,Rosa Rojas,F,18,II,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-02,72,9,-0.41,0,13.7
+20240885,Ana Gomez,F,21,IX,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-13,11,4,0.48,0,16.3
+20240886,Diana Vega,F,26,III,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-08,33,2,0.19,1,16.6
+20240887,Ximena Perez,F,21,VII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-21,97,20,-0.76,0,7.3
+20240888,Sofia Ruiz,F,23,VI,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-19,92,28,-0.8,0,10.0
+20240889,Gabriela Ramirez,F,25,VI,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-06-15,72,12,-0.36,0,14.0
+20240890,Jorge Morales,M,26,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-23,55,4,0.49,0,14.5
+20240891,Simon Flores,M,22,IX,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-24,60,1,0.04,0,15.4
+20240892,Marck Gomez,M,25,I,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-07,15,0,0.28,0,17.7
+20240893,Javier Cruz,M,18,IV,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-12,44,0,0.66,0,14.2
+20240894,Ricardo Alba,M,23,V,Baja,Derecho,Derecho y Humanidades,Letras,2026-06-18,97,26,-0.74,0,10.5
+20240895,Felipe Soto,M,22,IX,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-06,59,4,0.26,0,19.8
+20240896,Diego Inofuente,M,18,V,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-06,59,4,0.3,1,17.4
+20240897,Natalia Mesa,F,22,X,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-20,30,2,0.85,1,16.7
+20240898,Ana Rios,F,25,IX,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-04,15,2,0.9,0,17.3
+20240899,Natalia Medina,F,22,V,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-15,19,4,0.66,0,15.4
+20240900,Andrea Cruz,F,23,I,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-04,26,2,0.02,0,19.1
+20240901,Luis Alba,M,21,VI,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-02,42,0,0.24,0,16.0
+20240902,Victor Lopez,M,24,V,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-21,33,2,0.98,0,19.4
+20240903,Andres Rey,M,18,III,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-19,47,0,0.11,0,15.3
+20240904,Nicolas Peña,M,23,IV,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-12,34,5,0.08,0,14.5
+20240905,Andrea Cano,F,26,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-24,13,4,0.47,0,17.1
+20240906,Claudia Cano,F,22,IV,Media,Derecho,Derecho y Humanidades,Letras,2026-06-21,33,1,0.46,0,18.5
+20240907,Samantha Paz,F,23,II,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-28,40,4,0.23,0,18.7
+20240908,Gersson Mora,M,21,VII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-08,70,8,-0.5,1,11.3
+20240909,Gersson Cano,M,25,IV,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-01,74,8,-0.24,1,13.5
+20240910,Gersson Ruiz,M,24,I,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-05,99,29,-0.72,1,11.1
+20240911,Diana Arce,F,21,V,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-27,31,4,0.61,0,14.6
+20240912,Valeria Rios,F,25,VII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-17,28,3,0.7,0,18.4
+20240913,Miguel Peña,M,19,III,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-13,34,2,0.44,0,17.1
+20240914,Marck Flores,M,22,VIII,Media,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-06,43,4,0.51,0,19.6
+20240915,Laura Sanchez,F,20,I,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-28,46,4,0.31,0,16.1
+20240916,Isabella Cruz,F,21,III,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-08,24,5,0.28,0,14.6
+20240917,Gianpierre Gomez,M,18,IX,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-01,11,2,0.2,0,19.7
+20240918,Simon Inofuente,M,25,V,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-29,41,2,0.09,0,14.8
+20240919,Hugo Castro,M,21,II,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-02,75,11,-0.26,0,13.4
+20240920,Raul Ruiz,M,24,II,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-13,52,5,0.04,1,17.8
+20240921,Daniela Flores,F,21,V,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-01,56,3,0.28,0,15.2
+20240922,Angel Tello,M,21,I,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-01,23,5,0.18,0,16.5
+20240923,Ximena Diaz,F,23,VIII,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-26,68,8,-0.3,1,12.7
+20240924,Felipe Nunez,M,22,II,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-26,58,2,0.42,0,16.7
+20240925,Lucia Leon,F,23,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-15,100,28,-0.75,1,10.9
+20240926,Juan Silva,M,22,IX,Alta,Administracion,Ciencias Empresariales,Negocios,2026-05-04,30,2,0.67,0,16.5
+20240927,Natalia Torres,F,22,VIII,Baja,Derecho,Derecho y Humanidades,Letras,2026-05-22,12,2,0.45,0,15.3
+20240928,Alejandro Celi,M,19,X,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-09,11,5,0.02,0,16.3
+20240929,Brenda Medina,F,26,II,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-03,78,7,-0.11,1,13.9
+20240930,Diego Silva,M,20,VI,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-14,25,0,0.04,0,14.1
+20240931,Daniela Rivas,F,18,III,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-02,85,11,-0.54,0,12.0
+20240932,Javier Pino,M,24,III,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-25,87,29,-0.78,1,10.4
+20240933,Samantha Mora,F,20,II,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-13,29,2,0.43,0,18.5
+20240934,Astrid Chavez,F,25,VII,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-06,74,10,-0.53,0,12.0
+20240935,Isabella Tello,F,24,VI,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-29,61,9,-0.23,1,12.6
+20240936,Emilio Mendoza,M,23,III,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-07,23,3,0.59,0,14.5
+20240937,Simon Tello,M,21,I,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-27,71,12,-0.6,1,12.1
+20240938,Jorge Caro,M,21,IX,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-05-21,25,2,0.46,0,16.9
+20240939,Nicolas Castro,M,19,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-25,86,18,-0.84,0,7.5
+20240940,Astrid Ruiz,F,24,VIII,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-09,45,3,0.4,0,15.8
+20240941,Valeria Solis,F,22,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-06,19,2,0.52,0,15.2
+20240942,Simon Alba,M,22,VIII,Media,Derecho,Derecho y Humanidades,Letras,2026-06-29,84,11,-0.1,0,14.2
+20240943,Miguel Nunez,M,18,VI,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-10,10,2,0.7,1,15.2
+20240944,Astrid Torres,F,25,X,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-23,24,2,0.63,0,19.6
+20240945,Angel Vega,M,22,VI,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-29,78,11,-0.3,0,11.3
+20240946,Carmen Rojas,F,20,V,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-09,47,5,0.77,0,16.0
+20240947,Jorge Frias,M,25,IV,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-20,67,6,-0.14,0,13.2
+20240948,Patricia Perez,F,23,II,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-02,37,5,0.47,0,15.8
+20240949,Daniela Soto,F,24,VIII,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-23,43,0,0.88,0,19.1
+20240950,Miguel Rojas,M,20,VII,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-06-01,26,5,0.12,0,19.4
+20240951,Patricia Ortiz,F,25,VI,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-14,22,3,0.37,0,19.6
+20240952,Brenda Vera,F,21,I,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-22,91,21,-0.85,1,7.1
+20240953,Natalia Pino,F,25,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-18,46,0,0.86,0,19.6
+20240954,Mateo Sanchez,M,25,IX,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-24,100,17,-0.79,0,7.8
+20240955,Claudia Ismino,F,18,VIII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-21,94,21,-0.7,0,7.9
+20240956,Catalina Morales,F,20,X,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-03,96,25,-0.88,0,10.0
+20240957,Claudia Herrera,F,26,III,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-06,62,8,-0.33,1,13.4
+20240958,Samantha Perez,F,22,V,Baja,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-08,79,12,-0.28,1,13.0
+20240959,Valeria Castro,F,20,II,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-07,11,1,0.79,0,15.3
+20240960,Samantha Diaz,F,22,IV,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-20,97,22,-0.95,1,7.6
+20240961,Claudia Fernandez,F,22,IV,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-17,26,0,0.49,0,17.5
+20240962,Hector Celi,M,20,I,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-10,23,5,0.43,0,17.9
+20240963,Monica Caro,F,26,IX,Baja,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-06,23,2,0.22,0,15.6
+20240964,Emilio Sanchez,M,25,III,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-24,52,4,0.9,0,15.9
+20240965,Juliana Perez,F,20,VII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-22,16,1,0.91,0,15.8
+20240966,Maria Cruz,F,25,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-16,25,2,0.72,0,17.6
+20240967,Ana Flores,F,26,II,Media,Administracion,Ciencias Empresariales,Negocios,2026-06-19,79,9,-0.34,0,11.6
+20240968,Fernando Alba,M,26,IV,Baja,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-09,60,0,0.97,0,15.9
+20240969,Hector Luna,M,20,VIII,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-13,29,2,0.08,0,15.4
+20240970,Silvia Vasquez,F,26,VI,Alta,Contabilidad,Ciencias Empresariales,Negocios,2026-05-11,76,10,-0.28,1,13.4
+20240971,Miguel Leon,M,21,II,Media,Arquitectura,Ingenieria,Ciencias Exactas,2026-05-21,18,3,0.77,0,19.4
+20240972,Victor Alba,M,24,IX,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-01,47,0,0.22,0,17.7
+20240973,Monica Peña,F,18,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-28,89,17,-0.85,1,7.2
+20240974,Monica Soto,F,20,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-20,40,0,0.26,0,19.7
+20240975,Andrea Antunez,F,25,II,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-11,10,1,0.32,0,17.4
+20240976,Isabella Pino,F,24,VII,Alta,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-05-28,81,6,-0.33,1,13.8
+20240977,Alejandro Nunez,M,23,IX,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-20,74,10,-0.24,0,14.0
+20240978,Monica Muro,F,22,IV,Baja,Contabilidad,Ciencias Empresariales,Negocios,2026-05-28,90,14,-0.96,1,9.2
+20240979,Martina Solis,F,23,V,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-13,61,10,-0.53,1,12.0
+20240980,Monica Mendoza,F,18,X,Alta,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-16,97,25,-0.93,0,7.4
+20240981,Rosa Celi,F,25,VII,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-30,25,5,0.82,1,17.4
+20240982,Ana Vasquez,F,19,VII,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-05-22,57,2,0.42,0,14.1
+20240983,Antonella Frias,F,19,VII,Alta,Derecho,Derecho y Humanidades,Letras,2026-06-06,70,10,-0.39,0,14.0
+20240984,Luis Ortiz,M,25,IV,Media,Psicologia,Ciencias de la Salud,Ciencias Medicas,2026-06-17,21,2,0.5,0,14.3
+20240985,Sofia Rojas,F,18,VII,Alta,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-06-20,18,2,0.27,0,17.6
+20240986,Silvia Flores,F,18,VI,Alta,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-09,83,10,-0.2,1,13.1
+20240987,Mateo Arce,M,18,VI,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-05-23,19,3,0.85,0,17.0
+20240988,Daniela Chavez,F,24,I,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-10,32,0,0.21,0,19.9
+20240989,Monica Cruz,F,25,I,Alta,Arquitectura,Ingenieria,Ciencias Exactas,2026-06-09,37,3,1.0,0,14.1
+20240990,Mateo Diaz,M,24,IX,Alta,Administracion,Ciencias Empresariales,Negocios,2026-06-08,17,0,0.4,0,15.3
+20240991,Patricia Vargas,F,24,IX,Media,Medicina,Ciencias de la Salud,Ciencias Medicas,2026-06-18,80,8,-0.5,0,12.3
+20240992,Rodrigo Celi,M,23,IX,Baja,Administracion,Ciencias Empresariales,Negocios,2026-05-15,41,3,0.29,0,19.5
+20240993,Javier Silva,M,18,IX,Media,Contabilidad,Ciencias Empresariales,Negocios,2026-06-11,64,9,-0.35,1,12.5
+20240994,Antonella Gomez,F,21,III,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-08,36,0,0.33,0,15.5
+20240995,Elena Ortiz,F,18,X,Baja,Administracion,Ciencias Empresariales,Negocios,2026-06-05,22,1,0.46,0,18.3
+20240996,Diana Fernandez,F,23,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-27,95,27,-0.86,1,10.1
+20240997,Jose Sanchez,M,25,IX,Baja,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-21,31,1,0.24,1,18.3
+20240998,Rodrigo Solis,M,24,IX,Media,Administracion,Ciencias Empresariales,Negocios,2026-05-05,26,5,0.54,0,18.3
+20240999,Gonzalo Gomez,M,25,VIII,Baja,Ingenieria de Sistemas,Ingenieria,Ciencias Exactas,2026-05-19,56,0,0.36,0,18.3
+20241000,Victor Ismino,M,19,III,Media,Ingenieria Civil,Ingenieria,Ciencias Exactas,2026-06-16,74,11,-0.49,1,14.2

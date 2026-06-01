@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MindBI - Salud Mental UCV</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        /* CSS se mantiene idéntico al anterior */
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body { font-family: system-ui, -apple-system, sans-serif; display: flex; min-height: 100vh; background: #f8fafc; color: #333; }
+        .card { background: #fff; border: 1px solid #e5e7eb; border-radius: 12px; padding: 16px 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.05); }
+        .badge { font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 99px; letter-spacing: 0.02em; display: inline-block; }
+        .btn { border: none; border-radius: 8px; padding: 10px 20px; font-size: 14px; font-weight: 600; cursor: pointer; transition: all 0.2s; }
+        .btn:disabled { cursor: not-allowed; opacity: 0.7; }
+        .section-title { margin-bottom: 16px; }
+        .section-title h2 { font-size: 18px; font-weight: 700; color: #111827; margin: 0; font-family: 'Georgia', serif; }
+        .section-title p { font-size: 13px; color: #6b7280; margin: 4px 0 0; }
+        .sidebar { width: 220px; background: #0f172a; color: #e2e8f0; display: flex; flex-direction: column; padding-bottom: 24px; flex-shrink: 0; }
+        .logo-area { padding: 20px 16px 16px; border-bottom: 1px solid #1e293b; }
+        .nav-menu { padding: 16px 0; flex: 1; }
+        .menu-item { width: 100%; display: flex; align-items: center; gap: 10px; padding: 10px 16px; border: none; background: transparent; color: #94a3b8; cursor: pointer; border-left: 3px solid transparent; text-align: left; font-size: 13px; transition: all 0.15s; }
+        .menu-item:hover { background: #1e293b; color: #f8fafc; }
+        .menu-item.active { background: #1e293b; color: #f8fafc; font-weight: 600; }
+        .menu-icon { width: 22px; height: 22px; border-radius: 6px; background: #1e293b; display: flex; align-items: center; justify-content: center; font-size: 12px; }
+        .main-content { flex: 1; padding: 24px 28px; overflow-y: auto; height: 100vh; }
+        .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; padding-bottom: 16px; border-bottom: 1px solid #e5e7eb; }
+        .step-view { display: none; animation: fadeIn 0.3s ease; }
+        .step-view.active { display: block; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+        .grid-cards { display: grid; gap: 16px; }
+        .grid-cols-2 { grid-template-columns: repeat(2, 1fr); }
+        .grid-cols-auto { grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); }
+        table { width: 100%; border-collapse: collapse; font-size: 13px; }
+        th, td { padding: 10px 12px; text-align: left; border-bottom: 1px solid #e5e7eb; }
+        th { background: #f9fafb; color: #6b7280; font-weight: 600; font-size: 12px; }
+        
+        /* Cajas de diseño para Preguntas y Fórmulas */
+        .box-pregunta { background: #f8fafc; border: 1px solid #cbd5e1; border-radius: 6px; padding: 10px 12px; margin-bottom: 10px; }
+        .box-formula { background: #1e293b; color: #38bdf8; font-family: monospace; font-size: 12px; border-radius: 6px; padding: 10px 12px; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <div class="logo-area">
+            <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 4px;">
+                <span style="font-size: 22px;">🧠</span>
+                <div>
+                    <div style="font-size: 14px; font-weight: 700; color: #f8fafc; line-height: 1.2;">MindBI</div>
+                    <div style="font-size: 10px; color: #94a3b8;">Salud Mental UCV</div>
+                </div>
+            </div>
+            <div style="font-size: 10px; color: #475569; margin-top: 8px; background: #1e293b; padding: 4px 8px; border-radius: 6px;">📍 Lima Norte · 2026</div>
+        </div>
+        
+        <div class="nav-menu" id="nav-menu">
+            <div style="font-size: 10px; color: #475569; font-weight: 700; letter-spacing: 0.08em; padding: 0 16px 8px; text-transform: uppercase;">Pipeline BI/IA</div>
+        </div>
+        
+        <div id="sidebar-alert" style="margin: 0 12px; background: #7f1d1d; border-radius: 10px; padding: 10px 12px; display: none; align-items: center; gap: 8px;">
+            <span style="font-size: 16px;">🚨</span>
+            <div>
+                <div id="sidebar-alert-text" style="font-size: 12px; color: #fca5a5; font-weight: 600;">Alertas</div>
+                <div style="font-size: 10px; color: #ef4444;">Requieren atención</div>
+            </div>
+        </div>
+    </div>
+
+    <main class="main-content">
+        <div class="header">
+            <div>
+                <div style="font-size: 12px; color: #9ca3af; margin-bottom: 2px;">Plataforma Monitoreo Salud Mental · UCV Lima Norte · 2026</div>
+                <h1 id="header-title" style="font-size: 22px; font-weight: 800; color: #111827; margin: 0; font-family: 'Georgia', serif;"></h1>
+            </div>
+            <div style="display: flex; gap: 8px; align-items: center;">
+                <div style="font-size: 12px; color: #9ca3af;" id="header-step-counter"></div>
+                <div id="header-dots" style="display: flex; gap: 4px;"></div>
+            </div>
+        </div>
+
+        <div id="views-container"></div>
+    </main>
+
+    <script>
+        // ESTADO GLOBAL DE LA APLICACIÓN
+        const APP_STATE = {
+            uploadedFilePath: null,
+            totalRawRows: 0,
+            isETLDone: false,
+            apiData: null
+        };
+
+        const STEPS = [
+            { id: 1, label: "Fuentes de Datos", icon: "🗄️", color: "#3b82f6" },
+            { id: 2, label: "Staging Area", icon: "📥", color: "#8b5cf6" },
+            { id: 3, label: "Proceso ETL", icon: "⚙️", color: "#f59e0b" },
+            { id: 4, label: "Data Warehouse", icon: "🏗️", color: "#06b6d4" },
+            { id: 5, label: "Capa de IA", icon: "🤖", color: "#ec4899" },
+            { id: 6, label: "Capa Semántica", icon: "📐", color: "#10b981" },
+            { id: 7, label: "Visualización BI", icon: "📊", color: "#f97316" }
+        ];
+
+        const RISK_COLORS = {
+            "Crítico": { bg: "#fef2f2", text: "#dc2626", border: "#fca5a5", dot: "#ef4444" },
+            "Observación": { bg: "#fffbeb", text: "#d97706", border: "#fcd34d", dot: "#f59e0b" },
+            "Estable": { bg: "#f0fdf4", text: "#16a34a", border: "#86efac", dot: "#22c55e" }
+        };
+
+        let currentStep = 1;
+        let currentDWFilter = 'Todos';
+        let chartPieInst = null;
+        let chartBarInst = null;
+
+        // --- FUNCIONES API ---
+        async function uploadFile() {
+            const fileInput = document.getElementById('file-upload');
+            if (!fileInput.files[0]) return alert("Selecciona un archivo Excel o CSV");
+            
+            const formData = new FormData();
+            formData.append("file", fileInput.files[0]);
+
+            const btn = document.getElementById('btn-upload');
+            btn.innerText = "Subiendo...";
+            btn.disabled = true;
+
+            try {
+                const response = await fetch('/api/upload', { method: 'POST', body: formData });
+                const result = await response.json();
+                if (result.status === 'success') {
+                    APP_STATE.uploadedFilePath = result.file_path;
+                    APP_STATE.totalRawRows = result.registros;
+                    changeStep(2); 
+                } else {
+                    alert(result.error);
+                }
+            } catch(e) {
+                alert("Error de conexión con el backend Python.");
+            }
+        }
+
+        async function ejecutarETL() {
+            if (!APP_STATE.uploadedFilePath) return alert("Sube un archivo en el Paso 1 primero.");
+            
+            const btn = document.getElementById('btn-etl');
+            btn.disabled = true;
+            btn.style.background = "#9ca3af";
+            btn.innerText = "⚙️ Ejecutando ETL y Modelos IA en Python...";
+
+            try {
+                await fetch('/api/etl', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify({ file_path: APP_STATE.uploadedFilePath })
+                });
+
+                const dataResponse = await fetch('/api/data');
+                APP_STATE.apiData = await dataResponse.json();
+                APP_STATE.isETLDone = true;
+                
+                const alertDiv = document.getElementById('sidebar-alert');
+                const criticos = APP_STATE.apiData.resumen.total_criticos;
+                if (criticos > 0) {
+                    alertDiv.style.display = 'flex';
+                    document.getElementById('sidebar-alert-text').innerText = `${criticos} Alertas Críticas`;
+                }
+
+                btn.style.background = "#16a34a";
+                btn.innerText = "✅ Proceso Finalizado (Ver DW o Dashboards)";
+                
+                setTimeout(() => changeStep(4), 1000);
+            } catch(e) {
+                alert("Error ejecutando ETL en backend.");
+                btn.disabled = false;
+                btn.innerText = "▶️ Reintentar ETL";
+            }
+        }
+
+        async function simularIA() {
+            const btn = document.getElementById('btn-ia');
+            btn.disabled = true;
+            btn.innerText = "Calculando modelo...";
+            
+            const payload = {
+                estres: document.getElementById('in-estres').value,
+                lms: document.getElementById('in-lms').value,
+                sentimiento: document.getElementById('in-sent').value
+            };
+            
+            try {
+                const response = await fetch('/api/predict', {
+                    method: 'POST',
+                    headers: {'Content-Type': 'application/json'},
+                    body: JSON.stringify(payload)
+                });
+                const r = await response.json();
+                
+                const resContainer = document.getElementById('resultado-ia');
+                resContainer.style.background = "#fff";
+                resContainer.style.borderLeft = `4px solid ${r.color}`;
+                resContainer.innerHTML = `
+                    <div style="width:100%">
+                        <div style="font-size: 14px; font-weight: 600; margin-bottom: 12px;">📋 Resultado de la Simulación</div>
+                        <div style="text-align: center; padding: 16px 0;">
+                            <div style="font-size: 28px; font-weight: 800; color: ${r.color}">${r.riesgo}</div>
+                        </div>
+                        <div class="grid-cards grid-cols-2">
+                            <div style="background: #f9fafb; border-radius: 8px; padding: 10px; text-align: center;">
+                                <div style="font-size: 11px; color: #9ca3af;">Prob. Riesgo</div>
+                                <div style="font-size: 16px; font-weight: 700; color: ${r.color}">${(r.prob*100).toFixed(0)}%</div>
+                            </div>
+                            <div style="background: #f9fafb; border-radius: 8px; padding: 10px; text-align: center;">
+                                <div style="font-size: 11px; color: #9ca3af;">Prob. Deserción</div>
+                                <div style="font-size: 16px; font-weight: 700; color: ${r.desercion > 0.5 ? '#ef4444' : '#f59e0b'}">${(r.desercion*100).toFixed(0)}%</div>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            } catch(e) {
+                alert("Error al contactar la IA.");
+            }
+            btn.disabled = false;
+            btn.innerText = "🤖 Predecir Nuevo Escenario";
+        }
+
+        // --- RENDERIZADO DE VISTAS ---
+        function renderPaso1() {
+            return `
+                <div class="section-title">
+                    <h2>🗄️ Fuentes de Datos</h2>
+                    <p>Sube la data histórica o transaccional de los estudiantes (Excel / CSV)</p>
+                </div>
+                <div class="card" style="border-left: 4px solid #3b82f6;">
+                    <div style="margin-bottom: 16px;">
+                        <input type="file" id="file-upload" accept=".csv, .xlsx, .xls" style="padding: 10px; border: 1px dashed #ccc; width: 100%;">
+                    </div>
+                    <button id="btn-upload" class="btn" style="background: #3b82f6; color: white;" onclick="uploadFile()">📤 Procesar Archivo</button>
+                </div>
+            `;
+        }
+
+        function renderPaso2() {
+            const filas = APP_STATE.totalRawRows;
+            return `
+                <div class="section-title">
+                    <h2>📥 Staging Area</h2>
+                    <p>Landing Zone con datos crudos antes de transformar</p>
+                </div>
+                <div class="card" style="display: flex; align-items: center; gap: 16px;">
+                    <code style="color: #7c3aed; font-size: 13px;">staging_upload_temporal</code>
+                    <div style="flex: 1;">
+                        <div style="font-size: 14px; font-weight: 700;">${filas.toLocaleString()} registros extraídos</div>
+                    </div>
+                    <span class="badge" style="background: ${filas>0 ? '#fffbeb' : '#f3f4f6'}; color: ${filas>0 ? '#d97706' : '#9ca3af'};">${filas>0 ? 'Pendiente ETL' : 'Esperando datos'}</span>
+                </div>
+            `;
+        }
+
+        function renderPaso3() {
+            return `
+                <div class="section-title">
+                    <h2>⚙️ Proceso ETL</h2>
+                    <p>Extract → Transform → Load con reglas de negocio implementadas en Pandas</p>
+                </div>
+                <div class="grid-cards grid-cols-2" style="margin-bottom: 20px;">
+                    <div class="card"><div style="font-size:12px; font-weight:600;">Reglas de Calidad</div><div style="font-size:11px; color:#6b7280;">Deduplicación, normalización de nulos y fechas.</div></div>
+                    <div class="card"><div style="font-size:12px; font-weight:600;">Reglas de IA</div><div style="font-size:11px; color:#6b7280;">Etiquetado de riesgo basado en estrés, LMS y sentimiento.</div></div>
+                </div>
+                <button id="btn-etl" class="btn" style="background: #f59e0b; color: white;" onclick="ejecutarETL()">▶️ Ejecutar ETL Completo</button>
+            `;
+        }
+
+        function renderPaso4() {
+            if(!APP_STATE.isETLDone) return `<div class="card">Completa el Paso 3 primero.</div>`;
+            const data = APP_STATE.apiData.estudiantes;
+            const filtrados = currentDWFilter === "Todos" ? data : data.filter(e => e.riesgo === currentDWFilter);
+            
+            return `
+                <div class="section-title"><h2>🏗️ Data Warehouse (Esquema Estrella)</h2></div>
+                <div style="display: flex; gap: 8px; margin-bottom: 12px;">
+                    ${["Todos", "Crítico", "Observación", "Estable"].map(r => `
+                        <button onclick="currentDWFilter='${r}'; renderCurrentStep();" style="padding: 4px 12px; border-radius: 99px; border: 1px solid #d1d5db; font-size: 12px; cursor: pointer; background: ${currentDWFilter === r ? '#111827' : '#fff'}; color: ${currentDWFilter === r ? '#fff' : '#374151'};">${r}</button>
+                    `).join('')}
+                </div>
+                <div style="border: 1px solid #e5e7eb; border-radius: 12px; overflow: hidden; background: white; max-height: 400px; overflow-y: auto;">
+                    <table>
+                        <thead><tr><th>Código</th><th>Nombre</th><th>Carrera</th><th>Riesgo</th><th>Estrés</th><th>Nota</th><th>Asistió Cita</th></tr></thead>
+                        <tbody>
+                            ${filtrados.map(e => {
+                                const rc = RISK_COLORS[e.riesgo] || RISK_COLORS["Estable"];
+                                return `<tr>
+                                    <td style="font-family: monospace; color: #3b82f6;">${e.codigo}</td>
+                                    <td style="font-weight: 500;">${e.nombre}</td>
+                                    <td>${e.carrera}</td>
+                                    <td>
+                                        <span class="badge" style="background: ${rc.bg}; color: ${rc.text}; border: 1px solid ${rc.border};">
+                                            ${e.riesgo}
+                                        </span>
+                                    </td>
+                                    <td>${e.estres}</td>
+                                    <td>${e.nota}</td>
+                                    <td style="font-weight: 600; text-align: center;">${e.asistencia === 1 ? '✅ Sí' : '❌ No'}</td>
+                                </tr>`;
+                            }).join('')}
+                        </tbody>
+                    </table>
+                </div>
+            `;
+        }
+
+        function renderPaso5() {
+            if(!APP_STATE.isETLDone || !APP_STATE.apiData) {
+                return `<div class="card text-center" style="color: #6b7280;">Sube y procesa los datos en los Pasos 1 y 3 para generar proyecciones de IA.</div>`;
+            }
+
+            const r = APP_STATE.apiData.resumen;
+            const total = r.total_monitoreados || 1;
+            
+            const riesgoActual = ((r.total_criticos / total) * 100).toFixed(1);
+            const riesgoMejorado = (riesgoActual * 0.4).toFixed(1); 
+            const desercionActual = (((r.total_criticos * 0.78) + (r.total_observacion * 0.35)) / total * 100).toFixed(1);
+            const desercionMejorada = (desercionActual * 0.3).toFixed(1);
+
+            return `
+                <div class="section-title">
+                    <h2>🤖 Capa de IA Predictiva y Simulación</h2>
+                    <p>Proyecciones de mejora a nivel global y simulador interactivo de escenarios individuales.</p>
+                </div>
+
+                <div style="margin-bottom: 16px; font-size: 14px; font-weight: 700; color: #374151; display: flex; align-items: center; gap: 8px;">
+                    <span>📈 Impacto Proyectado post-intervención (Global)</span>
+                    <span class="badge" style="background: #fdf2f8; color: #db2777; border: 1px solid #fbcfe8;">Machine Learning</span>
+                </div>
+                <div class="grid-cards grid-cols-2" style="margin-bottom: 24px;">
+                    <div class="card" style="border-top: 3px solid #8b5cf6;">
+                        <div style="font-size:11px; color:#6b7280; text-transform:uppercase; font-weight:700;">Reducción de Riesgo Crítico</div>
+                        <div style="display: flex; align-items: baseline; gap: 10px; margin-top: 8px;">
+                            <span style="font-size:24px; font-weight:800; color:#ef4444; text-decoration: line-through;">${riesgoActual}%</span>
+                            <span style="font-size:18px;">➡️</span>
+                            <span style="font-size:28px; font-weight:800; color:#10b981;">${riesgoMejorado}%</span>
+                        </div>
+                        <div style="font-size:12px; color:#6b7280; margin-top:4px;">Si se reduce el estrés > 20% en población vulnerable</div>
+                    </div>
+                    <div class="card" style="border-top: 3px solid #ec4899;">
+                        <div style="font-size:11px; color:#6b7280; text-transform:uppercase; font-weight:700;">Deserción Estudiantil Evitada</div>
+                        <div style="display: flex; align-items: baseline; gap: 10px; margin-top: 8px;">
+                            <span style="font-size:24px; font-weight:800; color:#ef4444; text-decoration: line-through;">${desercionActual}%</span>
+                            <span style="font-size:18px;">➡️</span>
+                            <span style="font-size:28px; font-weight:800; color:#10b981;">${desercionMejorada}%</span>
+                        </div>
+                        <div style="font-size:12px; color:#6b7280; margin-top:4px;">Controlando inasistencias LMS a menos de 5</div>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 16px; font-size: 14px; font-weight: 700; color: #374151;">🔬 Simulador de Escenarios (¿Qué pasa si cambian estos factores?)</div>
+                <div class="grid-cards grid-cols-2">
+                    <div class="card">
+                        <div style="margin-bottom: 16px;">
+                            <div style="display: flex; justify-content: space-between; font-size: 12px; font-weight:700; color:#1e293b; margin-bottom:4px;"><span>Puntaje Estrés</span><strong id="val-estres">85</strong></div>
+                            <input type="range" id="in-estres" min="0" max="100" value="85" style="width: 100%" oninput="document.getElementById('val-estres').innerText=this.value">
+                            <div style="font-size:10px; color:#9ca3af; text-align:right;">Mueve el control para reducir el estrés y ver la mejora</div>
+                        </div>
+                        <div style="margin-bottom: 16px;">
+                            <div style="display: flex; justify-content: space-between; font-size: 12px; font-weight:700; color:#1e293b; margin-bottom:4px;"><span>Inasistencias LMS</span><strong id="val-lms">12</strong></div>
+                            <input type="range" id="in-lms" min="0" max="30" value="12" style="width: 100%" oninput="document.getElementById('val-lms').innerText=this.value">
+                            <div style="font-size:10px; color:#9ca3af; text-align:right;">Mueve el control para simular mayor asistencia</div>
+                        </div>
+                        <input type="hidden" id="in-sent" value="-0.4">
+                        <button id="btn-ia" class="btn" style="width: 100%; background: #111827; color: white;" onclick="simularIA()">🤖 Predecir Escenario de Mejora</button>
+                    </div>
+                    <div id="resultado-ia" class="card" style="display: flex; align-items: center; justify-content: center; background: #f9fafb; border: 2px dashed #cbd5e1;">
+                        <div style="text-align: center; color: #64748b; font-size: 14px;">
+                            <span style="font-size:32px; display:block; margin-bottom:8px;">📊</span>
+                            Ajusta el Estrés y las Inasistencias en el panel izquierdo para simular una intervención exitosa y predecir la disminución del riesgo.
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderPaso6() {
+            if(!APP_STATE.isETLDone) return `<div class="card">Completa el Paso 3 primero.</div>`;
+            const r = APP_STATE.apiData.resumen;
+            const estudiantes = APP_STATE.apiData.estudiantes;
+            
+            const totalEvaluados = r.total_monitoreados;
+            const colorEvaluaciones = totalEvaluados > 500 ? '#10b981' : '#ef4444'; 
+
+            const notasEstables = estudiantes.filter(e => e.riesgo === 'Estable').map(e => e.nota);
+            const notasCriticos = estudiantes.filter(e => e.riesgo === 'Crítico').map(e => e.nota);
+            const promEstables = notasEstables.length ? (notasEstables.reduce((a,b)=>a+b,0)/notasEstables.length) : 0;
+            const promCriticos = notasCriticos.length ? (notasCriticos.reduce((a,b)=>a+b,0)/notasCriticos.length) : 0;
+            const brechaNotas = Math.abs(promEstables - promCriticos).toFixed(1);
+            const colorBrecha = brechaNotas < 1.0 ? '#10b981' : '#f59e0b';
+
+            const desercionProyectada = (r.total_criticos * 0.78) + (r.total_observacion * 0.35);
+            const tasaDesercion = totalEvaluados > 0 ? ((desercionProyectada / totalEvaluados) * 100).toFixed(1) : 0;
+            const colorPredictiva = tasaDesercion < 5 ? '#10b981' : '#8b5cf6'; 
+
+            const derivacionesUrgentes = estudiantes.filter(e => e.riesgo === 'Crítico' && e.lms > 5).length;
+            const colorPrescriptiva = '#10b981'; 
+
+            return `
+                <div class="section-title">
+                    <h2>📐 Capa Semántica y KPIs Analíticos</h2>
+                    <p>Mapeo de preguntas de negocio, calculadas dinámicamente con los datos procesados en Python.</p>
+                </div>
+                
+                <div class="grid-cards grid-cols-2">
+                    
+                    <div class="card" style="border-top: 4px solid #3b82f6;">
+                        <div style="font-weight: 800; color: #1e3a8a; margin-bottom: 12px;">🔹 1. Analítica Descriptiva</div>
+                        
+                        <div class="box-pregunta">
+                            <div style="font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase;">Pregunta de Negocio</div>
+                            <div style="font-size: 13px; font-weight: 700; color: #0f172a; margin-top: 2px;">¿Cuántos tamizajes o evaluaciones de salud mental se registran por mes?</div>
+                        </div>
+                        
+                        <div style="font-size: 12px; color: #475569; margin-bottom: 8px;"><b>KPI:</b> Total de evaluaciones mensuales <br><span style="color:#166534; background:#dcfce7; padding:2px 6px; border-radius:4px; margin-top:4px; display:inline-block;">Meta: > 500 evaluaciones</span></div>
+                        
+                        <div class="box-formula">
+                            <span style="color: #94a3b8;">Fórmula:</span> COUNT(evaluaciones)
+                        </div>
+                        
+                        <div style="font-size: 13px; font-weight: 700; margin-top: 12px; padding-top: 12px; border-top: 1px dashed #e2e8f0;">
+                            Resultado Actual: <span style="color: ${colorEvaluaciones}; font-size: 16px;">${totalEvaluados} evaluaciones</span>
+                        </div>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid #f59e0b;">
+                        <div style="font-weight: 800; color: #92400e; margin-bottom: 12px;">🔹 2. Analítica Diagnóstica</div>
+                        
+                        <div class="box-pregunta">
+                            <div style="font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase;">Pregunta de Negocio</div>
+                            <div style="font-size: 13px; font-weight: 700; color: #0f172a; margin-top: 2px;">¿Cómo afecta el nivel de estrés al rendimiento académico (notas)?</div>
+                        </div>
+
+                        <div style="font-size: 12px; color: #475569; margin-bottom: 8px;"><b>KPI:</b> Brecha de Notas (Estables vs Críticos) <br><span style="color:#166534; background:#dcfce7; padding:2px 6px; border-radius:4px; margin-top:4px; display:inline-block;">Meta: < 1.0 punto de diferencia</span></div>
+                        
+                        <div class="box-formula">
+                            <span style="color: #94a3b8;">Fórmula:</span> Promedio_Notas(Estables) - Promedio_Notas(Críticos)
+                        </div>
+                        
+                        <div style="font-size: 13px; font-weight: 700; margin-top: 12px; padding-top: 12px; border-top: 1px dashed #e2e8f0;">
+                            Resultado Actual: <span style="color: ${colorBrecha}; font-size: 16px;">Brecha de ${brechaNotas} puntos</span>
+                        </div>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid #8b5cf6;">
+                        <div style="font-weight: 800; color: #4c1d95; margin-bottom: 12px;">🔹 3. Analítica Predictiva</div>
+                        
+                        <div class="box-pregunta">
+                            <div style="font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase;">Pregunta de Negocio</div>
+                            <div style="font-size: 13px; font-weight: 700; color: #0f172a; margin-top: 2px;">¿Qué porcentaje de estudiantes desertaría si no intervenimos a tiempo?</div>
+                        </div>
+
+                        <div style="font-size: 12px; color: #475569; margin-bottom: 8px;"><b>KPI:</b> Tasa de Deserción Proyectada <br><span style="color:#166534; background:#dcfce7; padding:2px 6px; border-radius:4px; margin-top:4px; display:inline-block;">Meta: < 5% proyectado</span></div>
+                        
+                        <div class="box-formula">
+                            <span style="color: #94a3b8;">Fórmula:</span> ((Críticos * 0.78) + (Observación * 0.35)) / Total Estudiantes
+                        </div>
+                        
+                        <div style="font-size: 13px; font-weight: 700; margin-top: 12px; padding-top: 12px; border-top: 1px dashed #e2e8f0;">
+                            Resultado Actual: <span style="color: ${colorPredictiva}; font-size: 16px;">${tasaDesercion}% de Deserción Proyectada</span>
+                        </div>
+                    </div>
+
+                    <div class="card" style="border-top: 4px solid #10b981;">
+                        <div style="font-weight: 800; color: #064e3b; margin-bottom: 12px;">🔹 4. Analítica Prescriptiva</div>
+                        
+                        <div class="box-pregunta">
+                            <div style="font-size: 10px; font-weight: 700; color: #64748b; text-transform: uppercase;">Pregunta de Negocio</div>
+                            <div style="font-size: 13px; font-weight: 700; color: #0f172a; margin-top: 2px;">¿A cuántos estudiantes debemos derivar a psicología inmediatamente?</div>
+                        </div>
+
+                        <div style="font-size: 12px; color: #475569; margin-bottom: 8px;"><b>KPI:</b> Total de Derivaciones Urgentes (Riesgo + Ausentismo) <br><span style="color:#166534; background:#dcfce7; padding:2px 6px; border-radius:4px; margin-top:4px; display:inline-block;">Meta: Atender al 100% de casos críticos</span></div>
+                        
+                        <div class="box-formula">
+                            <span style="color: #94a3b8;">Fórmula:</span> Filtrar alumnos donde (Riesgo == Crítico) AND (Faltas LMS > 5)
+                        </div>
+                        
+                        <div style="font-size: 13px; font-weight: 700; margin-top: 12px; padding-top: 12px; border-top: 1px dashed #e2e8f0;">
+                            Resultado Actual: <span style="color: ${colorPrescriptiva}; font-size: 16px;">Derivar ${derivacionesUrgentes} alumnos urgentes</span>
+                        </div>
+                    </div>
+
+                </div>
+            `;
+        }
+
+        function renderPaso7() {
+            if(!APP_STATE.isETLDone) return `<div class="card">Completa el Paso 3 primero.</div>`;
+            
+            const r = APP_STATE.apiData.resumen;
+            const estudiantes = APP_STATE.apiData.estudiantes;
+            
+            const totalEvaluados = r.total_monitoreados;
+            const notasEstables = estudiantes.filter(e => e.riesgo === 'Estable').map(e => e.nota);
+            const notasCriticos = estudiantes.filter(e => e.riesgo === 'Crítico').map(e => e.nota);
+            const promEstables = notasEstables.length ? (notasEstables.reduce((a,b)=>a+b,0)/notasEstables.length) : 0;
+            const promCriticos = notasCriticos.length ? (notasCriticos.reduce((a,b)=>a+b,0)/notasCriticos.length) : 0;
+            const brechaNotas = Math.abs(promEstables - promCriticos).toFixed(1);
+            
+            const desercionProyectada = (r.total_criticos * 0.78) + (r.total_observacion * 0.35);
+            const tasaDesercion = totalEvaluados > 0 ? ((desercionProyectada / totalEvaluados) * 100).toFixed(1) : 0;
+            const derivacionesUrgentes = estudiantes.filter(e => e.riesgo === 'Crítico' && e.lms > 5).length;
+            const criticosTop = estudiantes.filter(e => e.riesgo === 'Crítico').slice(0, 5);
+
+            return `
+                <div class="section-title">
+                    <h2>📊 Dashboard Power BI - Resumen y Resultados KPI</h2>
+                    <p>Panel integral interactivo con los resultados de las 4 fases analíticas.</p>
+                </div>
+                
+                <div class="grid-cards grid-cols-auto" style="margin-bottom: 20px;">
+                    <div class="card" style="border-left: 4px solid #3b82f6; text-align:center; padding: 12px;">
+                        <div style="font-size:11px; color:#6b7280; font-weight:700; text-transform:uppercase;">Evaluaciones Mensuales</div>
+                        <div style="font-size:24px; font-weight:800; color:#111827;">${totalEvaluados}</div>
+                    </div>
+                    <div class="card" style="border-left: 4px solid #f59e0b; text-align:center; padding: 12px;">
+                        <div style="font-size:11px; color:#6b7280; font-weight:700; text-transform:uppercase;">Brecha de Notas</div>
+                        <div style="font-size:24px; font-weight:800; color:#f59e0b;">${brechaNotas} pts</div>
+                    </div>
+                    <div class="card" style="border-left: 4px solid #8b5cf6; text-align:center; padding: 12px;">
+                        <div style="font-size:11px; color:#6b7280; font-weight:700; text-transform:uppercase;">Tasa Deserción Proyectada</div>
+                        <div style="font-size:24px; font-weight:800; color:#8b5cf6;">${tasaDesercion}%</div>
+                    </div>
+                    <div class="card" style="border-left: 4px solid #10b981; text-align:center; padding: 12px;">
+                        <div style="font-size:11px; color:#6b7280; font-weight:700; text-transform:uppercase;">Derivaciones Urgentes</div>
+                        <div style="font-size:24px; font-weight:800; color:#10b981;">${derivacionesUrgentes}</div>
+                    </div>
+                </div>
+
+                <div class="grid-cards grid-cols-2" style="margin-bottom: 20px;">
+                    <div class="card">
+                        <div style="font-size: 13px; font-weight: 700; color: #374151; margin-bottom: 12px; text-align:center;">Distribución de Riesgo Global (Doughnut)</div>
+                        <div style="height: 220px; position:relative;">
+                            <canvas id="chartRiesgoPie"></canvas>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div style="font-size: 13px; font-weight: 700; color: #374151; margin-bottom: 12px; text-align:center;">Alumnos Críticos por Carrera (Top 5)</div>
+                        <div style="height: 220px; position:relative;">
+                            <canvas id="chartCarrerasBar"></canvas>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div style="font-size: 14px; font-weight: 700; color: #111827; margin-bottom: 12px;">🚨 Top 5 Estudiantes en Riesgo Crítico (Requieren Atención Inmediata)</div>
+                    <div style="border: 1px solid #e5e7eb; border-radius: 8px; overflow: hidden;">
+                        <table style="width:100%; border-collapse:collapse; text-align:left; font-size:12px;">
+                            <thead style="background:#f8fafc; color:#475569; border-bottom: 1px solid #e5e7eb;">
+                                <tr>
+                                    <th style="padding:10px 12px;">Código</th>
+                                    <th style="padding:10px 12px;">Nombre Estudiante</th>
+                                    <th style="padding:10px 12px;">Carrera</th>
+                                    <th style="padding:10px 12px;">Nivel Estrés</th>
+                                    <th style="padding:10px 12px;">Nota</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${criticosTop.map(e => `
+                                    <tr style="border-bottom:1px solid #e5e7eb;">
+                                        <td style="padding:10px 12px; font-family:monospace; color:#3b82f6;">${e.codigo}</td>
+                                        <td style="padding:10px 12px; font-weight:600;">${e.nombre}</td>
+                                        <td style="padding:10px 12px;">${e.carrera}</td>
+                                        <td style="padding:10px 12px; color:#ef4444; font-weight:700;">${e.estres} pts</td>
+                                        <td style="padding:10px 12px;">${e.nota}</td>
+                                    </tr>
+                                `).join('')}
+                                ${criticosTop.length === 0 ? `<tr><td colspan="5" style="padding:16px; text-align:center; color:#9ca3af;">No hay casos críticos registrados 🎉</td></tr>` : ''}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            `;
+        }
+
+        function renderizarDashboard() {
+            if (!APP_STATE.isETLDone || !document.getElementById('chartRiesgoPie')) return;
+            
+            const r = APP_STATE.apiData.resumen;
+            const carreras = [...APP_STATE.apiData.carreras].sort((a,b) => b.criticos - a.criticos).slice(0, 5); 
+
+            if(chartPieInst) chartPieInst.destroy();
+            if(chartBarInst) chartBarInst.destroy();
+
+            const ctxPie = document.getElementById('chartRiesgoPie').getContext('2d');
+            chartPieInst = new Chart(ctxPie, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Crítico', 'Observación', 'Estable'],
+                    datasets: [{
+                        data: [r.total_criticos, r.total_observacion, r.total_estables],
+                        backgroundColor: ['#ef4444', '#f59e0b', '#22c55e'],
+                        borderWidth: 0
+                    }]
+                },
+                options: { 
+                    maintainAspectRatio: false, 
+                    cutout: '65%',
+                    plugins: { legend: { position: 'bottom', labels: { boxWidth: 12, font: {size: 11} } } } 
+                }
+            });
+
+            const ctxBar = document.getElementById('chartCarrerasBar').getContext('2d');
+            chartBarInst = new Chart(ctxBar, {
+                type: 'bar',
+                data: {
+                    labels: carreras.map(c => c.carrera.length > 15 ? c.carrera.substring(0,15) + '...' : c.carrera),
+                    datasets: [{
+                        label: 'Total Críticos',
+                        data: carreras.map(c => c.criticos),
+                        backgroundColor: '#3b82f6',
+                        borderRadius: 4
+                    }]
+                },
+                options: { 
+                    maintainAspectRatio: false, 
+                    plugins: { legend: { display: false } },
+                    scales: { 
+                        y: { beginAtZero: true, ticks: { stepSize: 1 } },
+                        x: { ticks: { font: {size: 10} } }
+                    }
+                }
+            });
+        }
+
+        const viewRenderers = { 1: renderPaso1, 2: renderPaso2, 3: renderPaso3, 4: renderPaso4, 5: renderPaso5, 6: renderPaso6, 7: renderPaso7 };
+
+        function initApp() {
+            const navMenu = document.getElementById('nav-menu');
+            STEPS.forEach(s => {
+                navMenu.innerHTML += `
+                    <button id="nav-btn-${s.id}" class="menu-item" onclick="changeStep(${s.id})" style="border-left-color: ${s.id === currentStep ? s.color : 'transparent'}">
+                        <span class="menu-icon" style="background: ${s.id === currentStep ? s.color : '#1e293b'}">${s.icon}</span>
+                        <span><span style="color: #475569; margin-right: 4px;">${s.id}.</span>${s.label}</span>
+                    </button>
+                `;
+            });
+            changeStep(1);
+        }
+
+        async function changeStep(stepId) {
+            currentStep = stepId;
+
+            if ([4, 5, 6, 7].includes(currentStep) && !APP_STATE.isETLDone) {
+                try {
+                    const response = await fetch('/api/data');
+                    if (response.ok) {
+                        APP_STATE.apiData = await response.json();
+                        APP_STATE.isETLDone = true;
+                        
+                        const alertDiv = document.getElementById('sidebar-alert');
+                        const criticos = APP_STATE.apiData.resumen.total_criticos;
+                        if (criticos > 0) {
+                            alertDiv.style.display = 'flex';
+                            document.getElementById('sidebar-alert-text').innerText = `${criticos} Alertas Críticas`;
+                        }
+                    }
+                } catch(e) {}
+            }
+
+            STEPS.forEach(s => {
+                const btn = document.getElementById(`nav-btn-${s.id}`);
+                const icon = btn.querySelector('.menu-icon');
+                if (s.id === currentStep) {
+                    btn.classList.add('active');
+                    btn.style.borderLeftColor = s.color;
+                    icon.style.background = s.color;
+                } else {
+                    btn.classList.remove('active');
+                    btn.style.borderLeftColor = 'transparent';
+                    icon.style.background = '#1e293b';
+                }
+            });
+            
+            const stepData = STEPS.find(s => s.id === currentStep);
+            document.getElementById('header-title').innerHTML = `${stepData.icon} ${stepData.label}`;
+            document.getElementById('header-step-counter').innerText = `Paso ${currentStep} de 7`;
+            
+            let dotsHtml = '';
+            STEPS.forEach(s => {
+                dotsHtml += `<div onclick="changeStep(${s.id})" title="${s.label}" style="width: 28px; height: 28px; border-radius: 50%; background: ${s.id === currentStep ? s.color : '#e5e7eb'}; cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 12px; transform: ${s.id === currentStep ? 'scale(1.2)' : 'scale(1)'};">${s.id === currentStep ? s.icon : s.id}</div>`;
+            });
+            document.getElementById('header-dots').innerHTML = dotsHtml;
+
+            const container = document.getElementById('views-container');
+            container.innerHTML = `<div class="step-view active">${viewRenderers[currentStep]()}</div>`;
+            
+            if (currentStep === 7) {
+                setTimeout(renderizarDashboard, 50);
+            }
+        }
+
+        window.onload = initApp;
+    </script>
+</body>
+</html>
